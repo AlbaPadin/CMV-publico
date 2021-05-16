@@ -16,14 +16,14 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
   /* estilos por defecto para TODOS los elementos de la página; */
   /* estilo:valor; */
   box-sizing: border-box;
-  /*padding: 0px;*/
-  /*margin: 0px;*/
-
+  margin: 0;
+  padding: 0;
+  
 }
 
 div {
 
-  text-align: center;
+  /*text-align: center;
   /* estilos para todos los elementos <div>; */
   /* estilo:valor; */
   
@@ -66,9 +66,28 @@ figure {
 
   } /*para pantallas grandes*/
 
+body{
 
 
+  padding-top: 60px;
 
+}
+.menu{
+  
+  position: fixed;
+  margin-top: -60px;
+  text-align: center;
+  background: white;
+  height: 20px;
+  width: 100%;
+
+}
+.Titulos{
+  margin: 10px;
+}
+main {
+   text-align: center;
+}
 .claseUno {
   /* estilos para todos los elementos que son de la clase .claseUno; */
   /* estilo:valor; */
