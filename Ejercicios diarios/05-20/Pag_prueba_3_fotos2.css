@@ -1,0 +1,104 @@
+/*
+CSS 
+web o pagina:
+entorno: Curso CMV-Accenture
+autor: Carlos Boni
+fecha: Mayo 2021
+RECORDAR:
+en caso de conflictos se aplica el estilo que se define último,
+o sea al final de este archivo o en la misma pagina html
+
+Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
+
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+  }
+
+figure {
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+  margin: 0px;  
+  text-align: center;
+}
+.contenedor{
+  display: flex;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+.CajaImagen{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+    }
+
+.PieDeFoto{
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;     
+  bottom: 0px;
+  text-align: center;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+  font-size: 80%;
+  width: 100%;
+  color:white;
+   }
+.tituloFoto{
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: black;
+  color:white;
+  border-radius: 7px;
+  box-shadow: 5px 3px 2px grey;
+  font-size: 100%;
+}
+.tituloFoto h4{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#ContenedorTitulosEImangenes{
+  padding: 20px;
+}
+
+#TituloPagina{
+/*  padding: 20px;*/
+  padding-top: 10px;
+  text-align: center;
+
+}
+#SubtituloPagina{
+ /* padding: 10px;*/
+
+}
+
+@media screen and (max-width: 900px) { 
+  
+  figure {
+    
+    height: 230px;
+     
+}
+@media screen and (max-width: 600px) { 
+
+  figure {
+    
+    height: 160px;
+    display: block;
+   
+}

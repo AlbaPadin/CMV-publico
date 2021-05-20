@@ -31,11 +31,12 @@ body {
   box-shadow: 0px 10px 15px black; 
 }
 
-.Menu-navegacion__ul li{
+.Menu-navegacion__ul .pestaña{
   float: right;
   display: block;
   height: 100%;
-  width: 100px;
+  width: 10%;
+  overflow: hidden;
 
 }
 
@@ -61,7 +62,23 @@ body {
 .Menu-navegacion__ul a:active{
   color:lightgrey;
 
+}
 
+.logoynavegador{
+  height: 100%;
+  width:100%;
+display: inline;
+}
+
+#navegador {
+  margin-top: 37px;
+  width: 150px;
+}
+
+.logo__img{
+  height: 100px;
+
+ 
 }
 
 .Titulos-pagina{
