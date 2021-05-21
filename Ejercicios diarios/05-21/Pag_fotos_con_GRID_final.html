@@ -124,12 +124,13 @@ img{
   object-fit: cover; 
   }
 
-figure {
+.figura {
   display: inline-block;
   height: 100%;
-  width: 33%;
+  width: 32.5%;
   margin: 0px;  
   text-align: center;
+  padding: 10px;
 }
 .contenedor{
   display: flex;
@@ -171,8 +172,8 @@ figure {
   padding: 0;
 }
 
-#ContenedorTitulosEImangenes{
-  padding: 20px;
+.ContenedorTitulosEImangenes{
+
 }
 
 #TituloPagina{
@@ -186,36 +187,31 @@ figure {
 
 }
 
-@media screen and (max-width: 1200px) { 
-  figure {
-    display: block;
-    height: 230px;
+@media screen and (max-width: 1300px) { 
+  .figura {
+    display:block;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 2rem;
+
 }
     .contenido{
-    	width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-
-     
-}
-@media screen and (max-width: 600px) { 
-
-  figure {
-    
-    height: 160px;
     display: block;
-	}
-	.lado{
+    justify-content: center;
+  	align-items: center;
+
+}
+  .lado{
 		display: none;
 	}
 	.contenido{
 		grid-column: 1 / span 4; 
 	}
-
-   
 }
+
+     
+
+
 		
 	</style>
 	
@@ -261,8 +257,8 @@ figure {
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 		<div class="contenido">
-			<div id="ContenedorTitulosEImangenes">
-					<figure>
+			<div class="ContenedorTitulosEImangenes">
+					<figure class="figura">
 						<div class="tituloFoto">
 					<h4>Mercedes</h4>
 						</div>
@@ -275,7 +271,7 @@ figure {
 								<figcaption class="PieDeFoto">Coche de Hamilton</figcaption>
 							</div>				
 					</figure>
-					<figure>
+					<figure class="figura">
 						<div class="tituloFoto">
 							<h4>Red-bull</h4>
 						</div>
@@ -287,7 +283,7 @@ figure {
 								<figcaption class="PieDeFoto">Coche de Verstapen</figcaption>
 							</div>
 					</figure>
-					<figure>
+					<figure class="figura">
 						<div class="tituloFoto">
 							<h4>Ferrari</h4>
 						</div>
