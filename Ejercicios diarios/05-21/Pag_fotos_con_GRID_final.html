@@ -53,7 +53,7 @@ fecha: Marzo 2021
 		  border-style: solid;
 		  border-color: red;
 		  grid-template-columns:  repeat(3,1fr) 250px;
-		  grid-template-rows: 80px 40px auto 40px;
+		  grid-template-rows: 80px 40px auto auto auto 40px;
 		  grid-gap: 10px;
 		  width: 100%;
 		  height: 100%; 
@@ -78,7 +78,27 @@ fecha: Marzo 2021
 		  border-color: violet;
 		  grid-column: 4 / span 1;
 		  grid-row: 3 / span 1;
-		  background: rgba(0, 0, 0, 0.26);
+		  background: rgba(0, 0, 0, 0.6);
+		}
+		.MasContenido-lado {
+		  padding: 10px;
+		}
+		.MasContenido-lado-movil{
+		  padding: 10px;
+		  background: rgba(0, 0, 0, 0.6);
+		  padding: 10px;
+		  border-style: solid;
+		  border-color: violet;
+		  grid-column: 1 / span 3;
+		  grid-row: 4 / span 1;
+		}
+		.MasContenido-inferior {
+		  background: rgba(0, 0, 0, 0.6);
+		  padding: 10px;
+		  border-style: solid;
+		  border-color: black;
+		  grid-column: 1 / span 3;
+		  grid-row: 5 / span 1;
 		}
 		
 		.contenido {
@@ -93,7 +113,7 @@ fecha: Marzo 2021
 		  border-style: solid;
 		  border-color: aqua;
 		  grid-column: 1 / span 4;
-		  grid-row: 4 / span 1;
+		  grid-row: 6 / span 1;
 		  background: rgba(0, 0, 0, 0.26);
 		}
 		.nav__ul{
@@ -103,13 +123,15 @@ fecha: Marzo 2021
 			list-style-type: none;
 			margin-left: 10px;
 		}
-		#div-h1{
+		.div-h1{
 			height: 50%;
+			padding: 10px;
 		}
 		.nav{
 			display: flex;
 			height: 50%;
 			align-items: center;
+			padding: 5px;
 
 		}
 		* {
@@ -172,6 +194,18 @@ img{
   padding: 0;
 }
 
+
+.MasContenido__div{
+	display: inline-block;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+  	box-shadow: 5px 3px 2px grey;
+  	margin:10px;
+}
+.parrafo{
+	padding: 10px;
+}
 .ContenedorTitulosEImangenes{
 
 }
@@ -186,11 +220,14 @@ img{
  /* padding: 10px;*/
 
 }
+.MasContenido-lado-movil{
+	display: none;
+}
 
 @media screen and (max-width: 1300px) { 
   .figura {
     display:block;
-    width: 300px;
+    width: 400px;
     margin:auto;
     margin-bottom: 2rem;
 
@@ -199,14 +236,20 @@ img{
     display: block;
     justify-content: center;
   	align-items: center;
+  }
 
-}
-  .lado{
-		display: none;
+
+@media screen and (max-width: 900px){
+  .lado {
+	display: none;
 	}
+
 	.contenido{
-		grid-column: 1 / span 4; 
+	grid-column: 1 / span 4; 
 	}
+	 .MasContenido-lado-movil{
+  	display: block;
+  }
 }
 
      
@@ -240,23 +283,31 @@ img{
 				
 					<nav class="nav">
         				<ul class="nav__ul">
-          		 		 <li class="nav__li"><a class="nav__a" href="#">Menu</a></li>
+          		 		<li class="nav__li"><a class="nav__a" href="#">Menu</a></li>
           		  		<li class="nav__li"><a class="nav__a" href="#">Opciones</a></li>
           		  		<li class="nav__li"><a class="nav__a" href="#">Contacto</a></li>
-          		  		<li class="nav__li"><button>Boton</button> </li>
+          		  		<li class="nav__li"><button>Color letras</button></li>
        					</ul>
   					</nav>			
 		</div>
 
 		<div class="migas">Migas de pan (ruta)</div>
 		<div class="lado">
-			<p class="dia">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			<div class="MasContenido-lado">
+					<div class="MasContenido__div"><h3>Más contenido lado</h3></div>
+					<p class="dia parrafo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				
+		</div>
 		<div class="contenido">
+			<div class="MasContenido__div"><h3>Equipos F1</h3></div>
 			<div class="ContenedorTitulosEImangenes">
 					<figure class="figura">
 						<div class="tituloFoto">
@@ -265,7 +316,7 @@ img{
 				
 							<div class="contenedor">
 								<div class="CajaImagen">
-							<img src="mercedes.jpg" width="500px" alt="Mercedes" title="Mercedes" >
+							<img src="mercedes.png" width="500px" alt="Mercedes" title="Mercedes" >
 								</div>
 						
 								<figcaption class="PieDeFoto">Coche de Hamilton</figcaption>
@@ -277,7 +328,7 @@ img{
 						</div>
 						<div class="contenedor">
 								<div class="CajaImagen">
-									<img src="redbull.jpg" width="500px" alt="Redbull" title="Mercedes" >
+									<img src="redbull.png" width="500px" alt="Redbull" title="Mercedes" >
 								</div>
 						
 								<figcaption class="PieDeFoto">Coche de Verstapen</figcaption>
@@ -289,7 +340,44 @@ img{
 						</div>
 						<div class="contenedor">
 								<div class="CajaImagen">
-									<img src="ferrari.jpg" width="500px" alt="Ferrari" title="Mercedes" >
+									<img src="ferrari.png" width="500px" alt="Ferrari" title="Mercedes" >
+								</div>
+						
+								<figcaption class="PieDeFoto">Coche de Sainz</figcaption>
+							</div>
+					</figure>
+					<figure class="figura">
+						<div class="tituloFoto">
+					<h4>McLaren</h4>
+						</div>
+				
+							<div class="contenedor">
+								<div class="CajaImagen">
+							<img src="mclaren.png" width="500px" alt="McLaren" title="McLaren" >
+								</div>
+						
+								<figcaption class="PieDeFoto">Coche de Norris</figcaption>
+							</div>				
+					</figure>
+					<figure class="figura">
+						<div class="tituloFoto">
+							<h4>Alpine</h4>
+						</div>
+						<div class="contenedor">
+								<div class="CajaImagen">
+									<img src="alpine.png" width="500px" alt="Alpine" title="Alpine" >
+								</div>
+						
+								<figcaption class="PieDeFoto">Coche de Verstapen</figcaption>
+							</div>
+					</figure>
+					<figure class="figura">
+						<div class="tituloFoto">
+							<h4>Alpha Tauri</h4>
+						</div>
+						<div class="contenedor">
+								<div class="CajaImagen">
+									<img src="alphatauri.png" width="500px" alt="Alpha Tauri" title="MAlpha Tauri" >
 								</div>
 						
 								<figcaption class="PieDeFoto">Coche de Sainz</figcaption>
@@ -297,8 +385,37 @@ img{
 					</figure>
 						
 				</div>
+				<div class="MasContenido-lado-movil">
+					<div class="MasContenido__div"><h3>Más contenido lado</h3></div>
+					<p class="dia parrafo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="MasContenido-inferior">
+					<div class="MasContenido__div"><h3>Más contenido sobre F1</h3></div>
+					<p class="dia parrafo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
 
 		</div>
+
 		<div class="pie">Pie de página</div>
 	</div>
 </main>
