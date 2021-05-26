@@ -49,6 +49,7 @@ body{
 }
 .lista__a{
   text-decoration: none;
+  color:black;
 }
 .lista__li{  
   margin-left: 15px;  
