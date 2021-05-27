@@ -12,9 +12,9 @@ fecha: Mayo 2021
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Fotos F1</title>
+	<title>Ejercicios Javascript</title>
 	
 	<!-- una fuente de Google -->
 	<link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -23,7 +23,7 @@ fecha: Mayo 2021
 	<!-- una hoja de estilos externa-->
 	
 	<!-- una hoja de estilos personalizada-->
-	<link href="Pag_prueba_3_fotos.css" rel="stylesheet"/>
+	<link href="27-mayo-ej1.css" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -35,7 +35,7 @@ fecha: Mayo 2021
 		}
 		
 		body {
-			background: #cccccc/* Azul al 10% */
+			background: lightblue;  /* Azul al 10% */
 		}
 	</style>
 	
@@ -43,7 +43,7 @@ fecha: Mayo 2021
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
-	<script src="00-modelo.js"></script>
+	<script src="27-mayo-ej1.js"></script>
 	
 	<!-- scripts personalizados Javascript o JQuery -->
 	<script>
@@ -56,44 +56,46 @@ fecha: Mayo 2021
 
 	<!-- cabecera de pagina -->
 	<header>
-		<h1>FOTOS DE FORMULA 1</h1>
-		<h2>Temporada 2021</h2>
+		<h1>Ejercicios Javascript</h1>
+		<h2>Ejercicio DOM-URL </h2>
 		<br/>
 	</header>
 	
 	<!-- bloque de contenido de la pagina -->
 	<main>
-		
-		<div>
-			<figure>
-				<h4>Mercedes</h2>
-				<img src="mercedes.jpg" width="500px" alt="Mercedes" title="Mercedes" >
-				<figcaption>Coche de Hamilton</figcaption>
-			</figure>
-			<figure>
-				<h4>Redbull</h2>
-				<img src="redbull.jpg" width="500px" alt="Redbull" title="Redbull" >
-				<figcaption>Coche de Verstapen</figcaption>
-			</figure>
-			<figure>
-				<h4>Ferrari</h2>
-				<img src="ferrari.jpg" width="500px" alt="Ferrari" title="Ferrari" >
-				<figcaption>Coche de Sainz</figcaption>
-			</figure>
-						
-		</div>
-		
+		<p><div id="salida"> </div></p><div id="salida"> </div>
+		<p><div id="salida2"> </div></p><div id="salida"> </div>
+		<br>
+		<p><div id="salida3"> </div></p><div id="salida"> </div>
+		<br>
+		<p><div id="salida4"> </div></p><div id="salida"> </div>
+
 	</main>
 
 
 	<!-- pie de pagina -->
 	<footer>
 		<br/><br/><br/>
-		<!-- <div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div> -->
+		<div>Hecho por:  <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a></div>
 	</footer>
 
 	<script>
-		// seccion de codigo javascript 
+
+    var x = document.baseURI;
+	document.getElementById("salida").innerHTML=(`La URI de esta página es:`);
+    document.getElementById("salida2").innerHTML = x;
+	
+	var w = window.innerWidth;
+    var h = window.innerHeight;
+    document.getElementById("salida3").innerHTML = "Ancho de la ventana: " + w + "px"+ "<br>Altura de la ventana: " + h + "px";
+
+	
+	var x = screen.availHeight;
+	var y =screen.availWidth;
+	document.getElementById("salida3").innerHTML = "Altura disponible de su pantalla: " + x + "px"+ "<br>Ancho disponible de su pantalla: " + y + "px";
+	//var x = "Altura disponible de su pantalla: " + screen.availHeight + "px";
+	//var y = "Ancho disponible de su pantalla: " + screen.availWidth + "px";
+	//document.getElementById("salida4").innerHTML = x + y;
 
 	</script>
 </body>

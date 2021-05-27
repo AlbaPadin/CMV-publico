@@ -34,7 +34,7 @@ details{
 }
 body{
   margin: 10px;
-    background: lightblue; 
+  background: lightblue; 
 }
 * {
   margin:0px;
@@ -59,7 +59,9 @@ body{
 .lista__a:hover {
   color:white;
 }
-
+footer{
+  padding: 10px;
+}
 
 div {
   /* estilos para todos los elementos <div>; */

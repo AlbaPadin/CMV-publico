@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Ejercicios Javascript</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="27-mayo-ej1.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+			background: lightblue;  /* Azul al 10% */
+		}
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="27-mayo-ej1.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>Ejercicios Javascript</h1>
+		<h2>Ej-C5. "Condicionales" </h2>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<div id="salida"> </div>
+		<div id="salida2"> </div>
+
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>Hecho por:  <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a></div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+        alert("A continuacion le pediremos 2 números y le diremos cual es el mayor");
+        let dato;
+        let num1=0;
+        let num2=0;
+		dato=window.prompt("Introduce el 1º numero ", "0");      
+        num1=parseInt(dato);  
+		dato=window.prompt("Introduce el 2º numero?", "0");
+        num2=parseInt(dato);
+
+        while (isNaN(num1)||isNaN(num2)){
+            alert("Uno de los datos introducidos no es un numero. Vuelve a introducirlos, por favor");
+            dato=window.prompt("Introduce el 1º numero ", "0");      
+            num1=parseInt(dato);  
+		    dato=window.prompt("Introduce el 2º numero?", "0");
+            num2=parseInt(dato);
+        }
+
+        if (num1==num2){
+            document.getElementById("salida").innerHTML=(`Los dos numeros son iguales. `);
+            } else{
+                document.getElementById("salida").innerHTML= (num1<num2)?(`El numero introducido en 2º posicion (${num2}) es mayor que el numero introducido en 1º posicion (${num1}).`):(`El numero introducido en 1º posicion (${num1}) es mayor que el numero introducido en 2º posicion (${num2}).`);
+                // if (num1<num2){
+                // document.getElementById("salida").innerHTML=(`El numero introducido en 2º posicion (${num2}) es mayor que el numero introducido en 1º posicion (${num1})`);
+                // document.getElementById("salida2").innerHTML=(`${num2} es mayor que ${num1} `);
+                // }else {
+                // document.getElementById("salida").innerHTML=(`El numero introducido en 1º posicion (${num1}) es mayor que el numero introducido en 2º posicion (${num2})`);
+                // document.getElementById("salida2").innerHTML=(`${num1} es mayor que ${num2} `);
+                // }
+            }
+        
+
+        // if (num1<num2){
+        //     primer_num=1;
+        //     segundo_num=2;
+        //     document.getElementById("salida").innerHTML=(`El numero introducido en ${segundo_num}º posicion (${num2}) es mayor que el numero introducido en ${primer_num}º posicion (${num1})`);
+        //     document.getElementById("salida2").innerHTML=(`${num2} es mayor que ${num1} `);
+        // }else if (num1>num2){
+        //     primer_num=1;
+        //     segundo_num=2;
+        //     document.getElementById("salida").innerHTML=(`El numero introducido en ${primer_num}º posicion (${num1}) es mayor que el numero introducido en ${segundo_num}º posicion (${num2})`);
+        //     document.getElementById("salida2").innerHTML=(`${num1} es mayor que ${num2} `);
+        // }else{
+        //     document.getElementById("salida").innerHTML=(`Los dos numeros son iguales `);
+        // }   
+            
+        
+
+		
+	</script>
+</body>
+</html>

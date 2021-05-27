@@ -22,7 +22,7 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
 }
 
  body {
-  background: rgba(255, 204, 153, 65);
+  background: #b3b3b3;
 
     }
 #Titulos {
@@ -51,14 +51,14 @@ main {
   padding: 0;
   width: 100%;
   list-style: none;
-  background-color: rgba(255, 04, 53, 95);
+  background-color: #ff0000;
 }
 
 .menu__lista a {
   text-decoration: none;
   text-align: center;
   color:white;
-  background-color: rgba(255, 04, 53, 95);
+  background-color:#ff0000;
   padding: 5px 10px;
   display:block;
  }
@@ -74,11 +74,23 @@ img{
   object-fit: cover;
   margin: 0;
   padding: 0;
- 
+
   /*padding: 10px;*/
   /*margin: 1px;*/
  /* padding-top: 15rem;*/
   /*display: inline-block; /* los elementos block van unos seguidos de otro*/
+}
+
+img:hover{
+  
+  transform: rotate(-5deg);
+  transition: transform 0.75s;
+
+}
+img:active{
+  height: 220px; 
+   transform: rotate(0deg);
+  transition: height 0.5s;
 }
 figure {
   display: inline-block;
