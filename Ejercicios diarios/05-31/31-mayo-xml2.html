@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Ejercicios Javascript</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="31-mayo-xml.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+			background: lightblue;  /* Azul al 10% */
+		}
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="31-mayo-xml2.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body onload=leerXML0() >
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>Ejercicios Javascript</h1>
+		<h2>Ej-Cargar desde un XML </h2>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<p id="mensaje">Aquí ira lo que leamos</p>
+        <p id="mensaje2">Aquí iran ordenados</p>
+        <p id="claveSolicidada">Aqui ira la clave</p>
+        <button type="button" onclick="MayoramenorUsuario()">Nombres de mayor a menor</button>
+        <button type="button" onclick="MenoramayorUsuario()">Nombres de menor a mayor</button>        
+        <button type="button" onclick="MayoramenorClave()">Claves de mayor a menor</button>
+        <button type="button" onclick="MenoramayorClave()">Claves de menor a mayor</button>
+        <input type="text" id="nom" placeholder="usr">
+        <button type="button" onclick="mostrarClave()">Mostrar clave</button>
+        
+
+	</main>
+
+
+	<!-- pie de pagina -->
+	<!-- <footer>
+		<br/><br/><br/>
+		<div>Hecho por:  <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a></div>
+	</footer> -->
+
+	<script>
+
+        
+        
+	</script>
+</body>
+</html>

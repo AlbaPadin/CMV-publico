@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Pagina elementos WEBSTORAGE</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+			background: lightblue; /* Azul al 10% */
+			margin: 0;
+		}
+
+		.topnav {
+		  overflow: hidden;
+		  background-color: white;
+		}
+
+		.topnav a {
+		  float: left;
+		  color: black;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.topnav a:hover {
+		  background-color: #dcdcdc;
+		  color: black;
+		}
+
+		.topnav a.active {
+		  background-color: #c0c0c0;
+		  color: white;
+
+		}
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body onload="cargaPagina()"> <!-- va a llamar a la funcion iniColorFondo nada mas que se abra o recargue la pagina-->
+
+	<!-- cabecera de pagina -->
+<header>
+<div class="topnav">
+  <a class="active" href="#05-28-inicio.html">Inicio</a>
+  <a href="05-28-registrate.html">Registrate</a>
+</div>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+
+		<section id="acceso">
+
+			<!--  area para ingresar -->
+			<p>Por favor ingrese al sistema:</p>
+			<input type="text" id="usuario" name="usr" maxlength="10" placeholder="(usuario)">
+			<button onclick="ingresar()">INGRESAR</button>
+			<!--  fin area para ingresar -->
+		</section>
+		<section id="desconectar">
+			<section id="Logueado">
+			    <h4>Usted esta registrado como: <span id="msgUsr"></span></h4>
+			    <br/>
+			</section>
+			<button onclick="salir()">DESCONECTAR</button>
+		</section>
+	</br>
+
+
+		<p>Elija el color para el fondo de la página</p>
+		<input type="color" id="color" name="favcolor" value="#add8e6">
+		<button onclick="cambiarColor()">Aplicar nuevo color de fondo</button>
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>Hecho por:  <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a></div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+		function cargaPagina(){
+			iniColorFondo();
+			mostrarUsuario();
+		}
+
+
+		function ingresar(){
+			let nombreUsuario= $("#usuario").val();
+			sessionStorage.setItem("usuarioLogueado", nombreUsuario);
+			//tambien se podria poner directamente sin la variable nombreUsuario
+			//sessionStorage.setItem("usuarioLogueado",nombreUsuario=$("#usuario").val(););
+			mostrarUsuario();
+		}
+
+		function mostrarUsuario(){
+			if (sessionStorage.getItem("usuarioLogueado")) {
+				$("#msgUsr").text(sessionStorage.getItem("usuarioLogueado"));
+				$("#acceso").hide();
+				$("#desconectar").show();
+			}
+			else {
+				$("#desconectar").hide();
+				$("#acceso").show();
+			}
+			
+		}
+
+			function salir(){
+			sessionStorage.removeItem("usuarioLogueado");
+			location.reload();
+		}
+			
+		
+
+
+		function iniColorFondo(){
+			if (localStorage.getItem("colorDeFondo")){
+				$("body").css("background-color",localStorage.getItem("colorDeFondo"));
+			}
+		}
+
+
+		function cambiarColor(){
+			let colorFondo=$("#color").val(); //coge el valor del elemento #color del formulario del body y lo asigna a colorFondo. .val te devuelve el valor dentro del value de un input. Esto es la forma simplificada de JQuery, hay una forma mas larga de hacerlo con javascript.
+			$("body").css("background-color", colorFondo); //aplica el color elegido al fondo de la pagina
+			//para consultar un valor con JQuery sería:
+			//let ColorBg=$("body").css("background-color");
+
+
+			localStorage.setItem("colorDeFondo", colorFondo); //asi guardamos de forma permanete nen una variable llamada  colorDeFondo el color que obtuvimos en el input del boton
+			//sessionStorage.setItem("colorDeFondo", colorFondo); //asi guardamos de forma permanete nen una variable llamada  colorDeFondo el color que obtuvimos en el input del boton
+
+		}
+
+
+	</script>
+</body>
+</html>
