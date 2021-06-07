@@ -29,34 +29,23 @@ function miFuncion(xml) {
         let nombre = x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
         let url = x[i].getElementsByTagName("foto")[0].childNodes[0].nodeValue;
         let pie = x[i].getElementsByTagName("pie")[0].childNodes[0].nodeValue;
-        let detalle = x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
+        let detalle =x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
         // actualizo la tabla de visualización
-      
-        bloque += `<div class="subcontenedor">
-                     <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="subsubcontenedor">
-                                    <div class='divNombre'>
-                                    <p class='nombre'>${nombre}</p>
-                                    </div >
-                                    <div class= 'divImg' >
-                                        <img  class="monoplaza" src=" ${url} "/>
-                                    </div>
-                                    <div class='PieDeFoto'>
-                                        <p>${pie}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flip-box-back">
-                                    <div class='detalle'>
-                                        <p>${detalle}</p>
-                                        <a class="enlaceDetalles" href="4-junio-InformacionEquipos.html">¡Cuentame más!</a>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>`;
+        bloque += "<div class='subcontenedor'><div><p class='nombre'>"+nombre+"</p></div><div class= 'divImg' ><img  src='"+ url + "'/></div><div class='PieDeFoto'><p>"+pie+"</p></div></div>";
+        //lo mismo de forma mas ordenada, usando `` y jQuery:
+        // bloque += `<div class='subcontenedor'>
+        //                 <div class='divNombre'>
+        //                     <p class='nombre'>${nombre}</p>
+        //                 </div>
+        //                 <div class= 'divImg' >
+        //                     <img  src=" ${url} "/>
+        //                 </div>
+        //                 <div class='PieDeFoto'>
+        //                     <p>${pie}</p>
+        //                 </div>
+        //             </div>`;
+        
+        
         // actualizo el array bidimensional con los usuarios registrados
         elemento = [nombre, url];
         registrados.push(elemento);

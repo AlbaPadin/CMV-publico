@@ -41,7 +41,7 @@ function miFuncion(xml) {
                                     <p class='nombre'>${nombre}</p>
                                     </div >
                                     <div class= 'divImg' >
-                                        <img  class="monoplaza" src=" ${url} "/>
+                                        <img  src=" ${url} "/>
                                     </div>
                                     <div class='PieDeFoto'>
                                         <p>${pie}</p>

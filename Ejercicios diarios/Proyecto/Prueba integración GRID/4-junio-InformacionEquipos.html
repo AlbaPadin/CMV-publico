@@ -63,15 +63,6 @@ fecha: Mayo 2021
 /*
 /*
  */
-/* Top nav
-/*
-/*
-/*
-/*
-/*
-/*
-/*
- */
 
  .topnav {
 		  overflow: hidden;
@@ -83,9 +74,10 @@ fecha: Mayo 2021
 		  float: left;
 		  color: black;
 		  text-align: center;
+		  padding: 14px 16px;
 		  text-decoration: none;
 		  font-size: 17px;
-		  height: 100%;
+          height: 100%;
 		}
        
 		.topnav a:hover {
@@ -109,10 +101,8 @@ fecha: Mayo 2021
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		display: flex;
-		background-color: white;		
-		width: 60px;
-		height: 60px;
+		display: block;
+		background-color: white;
 		}
 
 		li {
@@ -120,44 +110,10 @@ fecha: Mayo 2021
 		}
 		.topnav img{
 			box-sizing: content-box;
-			width: 250px;
-			height: 60px;
-		}
-		a {
-			padding-top: 18px;
-			padding-left: 16px;
-		    padding-right: 16px;
-			padding-bottom: 10px;
-		}
-		#svg{
-			padding: 0px;
-			margin: 0px;
+			height: 20px;
+			width: 200px;
 		}
 
-	/*VIDEO / CANVAS / SVG
-		/*
-		/*
-		/*
-		/*
-		*/
-		video::cue {
-		background-image: linear-gradient(to bottom, gray, lightgray);
-		color: papayawhip;
-		}
-
-		video::cue(b) {
-		color: peachpuff;
-		}
-		.canvas{
-			display: inline-block;
-		}
-		#contenedor{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-			margin-top: 0px;
-		}
 
 
 	</style>
@@ -181,24 +137,8 @@ fecha: Mayo 2021
     <header>
         <div class="topnav">
             <ul>
-                <li>
-					<a id="svg">
-						<!-- <img src="LOGO2.jpg"> -->
-						<svg width="60" height="60">
-						<rect width="30" height="30" style="fill:rgb(0,0,0)"/>
-						<rect width="30" height="30" x="30"
-						style="fill:rgb(236, 236, 236)"  />
-						<rect width="30" height="30" x="30" y="30" 
-						style="fill:rgb(0,0,0)"/>
-						<rect width="30" height="30" y="30" 
-						style="fill:rgb(236, 236, 236)"  />
-						<text x="3" y="25" fill="red" font-size="18" font-width="30" >Mundo</text>
-						<text x="21" y="50" fill="red" font-size="18">F1</text>
-					  Sorry, your browser does not support inline SVG.
-					  </svg>
-					   </a>
-				</li>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a><img src="https://tse1.mm.bing.net/th?id=OIP.DoNyTFt73wzBLLcmfLoVXAHaFA&pid=Api"></a></li>
+                <li><a href="#">Inicio</a></li>
                 <li><a href="4-junio-xml-FlipBox.html">Equipos</a></li>
                 <li><a class="active" href="4-junio-InformacionEquipos.html">Detalles</a></li>
             </ul>				

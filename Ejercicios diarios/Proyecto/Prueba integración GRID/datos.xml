@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orla>
+    <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+        <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+        <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+        <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+        <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+        <elemento>
+        <nombre>Mercedes</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mercedes.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Mercedes</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>RedBull</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/red-bull-racing.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Redbull</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Ferrari</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/ferrari.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Ferrari</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>McLaren</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/mclaren.png.transform/3col/image.png</foto>
+        <pie>Monoplaza McLAren</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Alpine</nombre>
+        <foto>https://www.formula1.com/content/dam/fom-website/teams/2021/alpine.png.transform/3col/image.png</foto>
+        <pie>Monoplaza Alpine</pie>
+        <detalle>Monoplaza de la temporada 2021</detalle>
+    </elemento>
+    
+</orla>
