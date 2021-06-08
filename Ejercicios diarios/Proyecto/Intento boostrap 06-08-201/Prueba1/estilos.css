@@ -1,0 +1,18 @@
+/*que la primera imagen del slider sea en blanco y negro, con un hover que le de su color original y las demas del slider sean normales*/
+/* .d-block[alt="logo"], .w-100[alt="logo"]{
+    filter: grayscale(100%);
+}
+.d-block[alt="logo"]:hover, .w-100[alt="logo"]:hover{
+    filter: grayscale(0%);
+} */
+/*que la primera carta del slider sea en blanco y negro, con un hover que le de su color original y las demas del slider sean normales*/
+/* .row[alt="logo"] .d-block[alt="logo"], .w-100[alt="logo"]{
+    
+} */
+
+.card-img-top[alt="logo"]{
+    filter: grayscale(100%);
+}
+.card-img-top[alt="logo"]:hover{
+    filter: grayscale(0%);
+}

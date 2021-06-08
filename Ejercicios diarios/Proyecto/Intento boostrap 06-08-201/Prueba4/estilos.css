@@ -1,0 +1,102 @@
+/*que la primera imagen del slider sea en blanco y negro, con un hover que le de su color original y las demas del slider sean normales*/
+/* .d-block[alt="logo"], .w-100[alt="logo"]{
+    filter: grayscale(100%);
+}
+.d-block[alt="logo"]:hover, .w-100[alt="logo"]:hover{
+    filter: grayscale(0%);
+} */
+/*que la primera carta del slider sea en blanco y negro, con un hover que le de su color original y las demas del slider sean normales*/
+/* .row[alt="logo"] .d-block[alt="logo"], .w-100[alt="logo"]{
+    
+} */
+
+.card-img-top[alt="logo"]{
+    filter: grayscale(100%);
+}
+.card-img-top[alt="logo"]:hover{
+    filter: grayscale(0%);
+}
+.dimension_imagen{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.col-lg-9 {
+    min-height: 350px;
+}
+.col-lg-9 {
+    padding-right: 0px;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    }
+  
+  .figura {
+    display: inline-block;
+    height: 70%;
+    min-height: 280px;
+    min-width: 450px;
+    width: 32.5%;
+    margin: 0px;  
+    text-align: center;
+    padding: 10px;
+  }
+  .contenedor{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    bottom: 0;
+    left: 0;
+  }
+  .CajaImagen{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+      }
+  
+  .PieDeFoto{
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;     
+    bottom: 0px;
+    text-align: center;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    font-size: 80%;
+    width: 100%;
+    color:white;
+     }
+  .tituloFoto{
+    padding: 3px 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    box-shadow: 5px 3px 2px grey;
+    font-size: 100%;
+  }
+  .tituloFoto h4{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    padding: 15px;
+}
+.col-md {
+    margin-left: 15px;
+}
+.col-lg-9 {
+    padding-right: 15px;
+}
+.card-body{
+  padding: 0px;
+}
+
+.ContenedorTitulosEImangenes {
+  margin-left: 6%;
+}

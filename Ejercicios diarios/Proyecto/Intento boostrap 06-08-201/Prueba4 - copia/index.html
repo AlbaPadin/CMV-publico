@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- importante SEO para la etiqueta del navegador -->
+    <title>Fotos F1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- una fuente de Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+    <!-- una hoja de estilos externa-->
+
+    <!-- una hoja de estilos personalizada-->
+    <link href="estilos.css" rel="stylesheet" />
+
+    <!-- iconos u otros elementos externos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #ffcc00;
+            /* Azul al 10% */
+        }
+    </style>
+
+    <!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+    <script src="00-modelo.js"></script>
+
+    <!-- scripts personalizados Javascript o JQuery -->
+    <script>
+		// aqui el codigo ...
+    </script>
+</head>
+
+
+<body>
+
+    <!-- cabecera de pagina -->
+    <header>
+        <!-- SCROLLSPY BOOSTRAP
+        https://getbootstrap.com/docs/4.0/components/scrollspy/
+        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=67&codigo=67&inicio=60 -->
+
+
+        <!-- NAVBAR Bootstrap
+        https://getbootstrap.com/docs/4.0/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">NavBar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- bloque de contenido de la pagina -->
+    <main>
+
+        <!-- MIGAS DE PAN BOOSTRAP
+        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=61&codigo=61&inicio=60 -->
+        <div>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Diseño web</a></li>
+                <li class="breadcrumb-item"><a href="#">CSS</a></li>
+                <li class="breadcrumb-item active">Bootstrap 4</li>
+            </ol>
+        </div>
+
+
+        <!-- COLUMNAS Bootstrap
+        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=5&codigo=5&inicio=0 -->
+        <div class="contenido">
+			<div class="MasContenido__div"><h3>Equipos F1</h3></div>
+			<div class="ContenedorTitulosEImangenes">
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel1" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel1" data-slide-to="1"></li>
+                                            <li data-target="#carousel1" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel2" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel2" data-slide-to="1"></li>
+                                            <li data-target="#carousel2" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel2" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel2" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel3" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel3" data-slide-to="1"></li>
+                                            <li data-target="#carousel3" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel3" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel3" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel4" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel4" data-slide-to="1"></li>
+                                            <li data-target="#carousel4" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel4" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel4" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel5" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel5" data-slide-to="1"></li>
+                                            <li data-target="#carousel5" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel5" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel5" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+					<figure class="figura">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-9" style="background-color:#aaa">
+                                    <!-- CARROUSEL BOOSTRAP
+                        https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=55&codigo=55&inicio=40 -->
+                                    <div id="carousel6" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel6" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel6" data-slide-to="1"></li>
+                                            <li data-target="#carousel6" data-slide-to="2"></li>
+                                        </ol>
+                                        <!-- diapositivas -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="logo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Logo</h4>
+                                                                <!-- <div id="politica" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div> -->
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="equipo"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title" ><a href="#politi" data-toggle="collapse">Pilotos y Monoplaza</a></h4>
+                                                                <div id="politi" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Pilotos Temporada 2021</button>
+                                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                
+                                            </div>
+                                            <!-- aqui empieza la card de los pilotos -->
+                                            <div class="modal fade" id="dialogo1"> 
+                                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                    <div class="modal-content">
+                                    
+                                                        <!-- cabecera del diálogo -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Título del diálogo</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">X</button>
+                                                        </div>
+                                    
+                                                        <!-- cuerpo del diálogo -->
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro1.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 1</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                    <div class="col">
+                                                                        <div class="card">
+                                                                            <img class="card-img-top"
+                                                                                src="http://www.tutorialesprogramacionya.com/imagenes/cuadro2.jpg">
+                                                                            <div class="card-body">
+                                                                                <h4 class="card-title">Titulo de la tarjeta 2</h4>
+                                                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                    elit. Etiam lectus sem,
+                                                                                    tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui,
+                                                                                    congue
+                                                                                    nec tortor sit amet, maximus mattis dui. </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <!-- pie del diálogo -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- aqui ya termino el card de los pilotos -->
+                                            <div class="carousel-item">
+                                                <div class="row d-block w-100"> <!--en esta linea empieza cada carta del carrousel-->
+                                                    <div class="col-md">
+                                                        <div class="card">
+                                                            <div class="dimension_imagen"><img class="card-img-top" src="logoMercedes.jpg" alt="scuderia"></div>
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"><a href="#poli" data-toggle="collapse">Equipo / Escuderia</a></h4>
+                                                                <div id="poli" class="collapse">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                                    eiusmod tempor incididunt ut labore et
+                                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                                    exercitation ullamco laboris nisi ut aliquip
+                                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                                                    voluptate velit esse cillum dolore eu
+                                                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt
+                                                                    mollit anim id est laborum.
+                                                                </div><br>
+                                                                <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                                  tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                                  nec tortor sit amet, maximus mattis dui. </p> -->
+                                                                <!-- <a href="#" class="btn btn-primary">Entrar</a> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- botones de desplazamiento a izquierda y derecha -->
+                                        <a class="carousel-control-prev" href="#carousel6" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel6" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                
+                                </div>
+                
+                            </div>				
+					</figure>
+						
+				</div>
+			
+
+		</div>
+            <div class="col-lg-3" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap 4.</p>
+            </div>
+
+        </div>
+        </div>
+
+
+
+        <!-- TARGETAS CON BOOSTRAP -->
+        <!-- https://www.tutorialesprogramacionya.com/bootstrap4ya/detalleconcepto.php?punto=52&codigo=52&inicio=40 -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Abrir diálogo con
+            tarjetas</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo2">Abrir diálogo con un
+            formulario</button>
+
+        
+
+
+
+        </div>
+
+    </main>
+
+
+    <!-- pie de pagina -->
+    <footer>
+        <br /><br /><br />
+        <!-- <div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div> -->
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
