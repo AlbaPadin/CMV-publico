@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Fotos F1</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="Pag_prueba_3_fotos2.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+			background: rgba(0, 0, 0, 0.26); /* Azul al 10% */
+		}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+		<div id="TituloPagina">
+			<h1>FOTOS DE FORMULA 1</h1>	
+				<div id="SubtituloPagina">
+					<h2>Temporada 2021</h2>	
+				</div>				
+		</div>
+		
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<div class="row">
+			<div class="col-9"  style="background-color:#aaa">
+			  <h1>Columna 1</h1> 
+			  <p>Esto es una prueba de bootstrap 4.</p>
+			</div>
+			<div class="col-3"  style="background-color:#bbb">
+			  <h1>Columna 2</h1> 
+			  <p>Esto es una prueba de bootstrap 4.</p>
+			</div>     
+		  </div> 
+
+		<div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="logoMercedes.jpg">
+				<img src="logoMercedes.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  
+		  
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="img_forest.jpg">
+				<img src="logoMercedes.jpg" alt="Forest" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="img_lights.jpg">
+				<img src="logoMercedes.jpg" alt="Northern Lights" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="img_mountains.jpg">
+				<img src="logoMercedes.jpg" alt="Mountains" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="logoMercedes.jpg">
+				<img src="logoMercedes.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="logoMercedes.jpg">
+				<img src="logoMercedes.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="logoMercedes.jpg">
+				<img src="logoMercedes.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  <div class="responsive">
+			<div class="gallery">
+			  <a target="_blank" href="logoMercedes.jpg">
+				<img src="logoMercedes.jpg" alt="Cinque Terre" width="600" height="400">
+			  </a>
+			  <div class="desc">Add a description of the image here</div>
+			</div>
+		  </div>
+		  
+		
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<!-- <div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div> -->
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+
+	</script>
+</body>
+</html>
