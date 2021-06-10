@@ -63,8 +63,10 @@ function miFuncion(xml) {
                       <div class="card-body">
                         <h4 class="card-title"><a href="#${colapseLogo}" data-toggle="collapse">Mercedes AWG</a></h4>
                         <div id="${colapseLogo}" class="collapse">
+                        <p>
                         ${nombreEquipo}
-                        </div><br>
+                        </p>
+                        </div>
                       </div>
                     </div>
                   </div>
