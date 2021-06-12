@@ -12,12 +12,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Hamilton.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo1</dialogoCardPilotos>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Stevenage, Gran Bretaña
+                    Fecha de Nacimiento:1985-01-07
+                    Edad:36 años
+                    Estatura:1,74 mts.
+                    Peso:68 Kgs.
+                    Web:www.lewishamilton.com
+                    Debut en la F1:GP de Australia 2007 
+                    Campeonatos F1:7 títulos mundiales (2008 con McLaren. 2014, 2015, 2017, 2018, 2019 y 2020 con Mercedes)
+                    Victorias:98
+                    Podiums:169
+                    Poles Positions:100</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Bottas.jpg</fotoPiloto2>
         <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Villähde, Finlandia
+                    Fecha de Nacimiento:1989-08-28
+                    Edad:31 años
+                    Estatura:1,73 mts.
+                    Peso:70 Kgs.
+                    Web:www.bottasvaltteri.com
+                    Debut en la F1:GP de Australia 2013 
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:9
+                    Podiums:58
+                    Poles Positions:17</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMercedes.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Mercedes-Benz es una de las automotrices más exitosas de la Fórmula 1, considerada uno de los cuatro equipos con mejores resultados, junto con Williams, Ferrari y McLaren.4​ Participó inicialmente como constructor en Fórmula 1 en 1954 y 1955, y de 2010 a la actualidad. El equipo alemán ganó los últimos siete Campeonatos de Constructores de forma consecutiva (de 2014 a 2020). Es el tercer equipo con más Campeonatos de Pilotos con nueve (1954, 1955, 2014, 2015, 2016, 2017, 2018, 2019 y 2020), como así también es el tercer equipo en la historia con más victorias (118) y poles (129) en todos los ítems anteriores, solamente por detrás de Ferrari y McLaren.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel2</carrousel>
@@ -31,12 +51,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Verstappen.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo2</dialogoCardPilotos>
         <nombrePiloto1>Max Verstappen #33</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Hasselt, Bélgica
+                    Fecha de Nacimiento:1997-09-30
+                    Edad:23 años
+                    Estatura:1,80 mts.
+                    Peso:67 Kgs.
+                    Web:www.verstappen.nl
+                    Debut en la F1:GP de Australia 2015 (Toro Rosso)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:11
+                    Podiums:47
+                    Poles Positions:4</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Perez.jpg</fotoPiloto2>
         <nombrePiloto2>Sergio Pérez #11</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Guadalajara, México
+                    Fecha de Nacimiento:1990-01-26
+                    Edad:31 años
+                    Estatura:1,73 mts.
+                    Peso:63 Kgs.
+                    Web:sergioperez.mx
+                    Debut en la F1:GP de Australia 2011 (Sauber)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:2
+                    Podiums:10
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Red Bull Racing es una escudería austriaca de Fórmula 1 con base en Milton Keynes (Inglaterra) propiedad de la empresa de bebidas energéticas Red Bull. La compañía adquirió la escudería Jaguar Racing por cerca de 110 millones de dólares cuando la propietaria anterior de este equipo, Ford Motor Company, anunció su retirada de la máxima categoría del automovilismo. La empresa Red Bull posee un equipo filial de Fórmula 1, Scuderia AlphaTauri (conocida hasta 2019 como Scuderia Toro Rosso), con sede en Faenza (Italia), desde el que los jóvenes pilotos dan posteriormente el salto al primer equipo.2​3​4​ Compite desde 2005 y en sus dos primeras temporadas corrió con licencia británica. El equipo austriaco de Red Bull Racing cumplió 15 años de existencia durante la máxima categoría en la presente campaña 2020, donde alcanzaron el segundo lugar en el campeonato de constructores, su mejor resultado desde el 2016.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel3</carrousel>
@@ -50,12 +90,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Sainz.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo3</dialogoCardPilotos>
         <nombrePiloto1>Carlos Sainz #55</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Madrid, España
+                    Fecha de Nacimiento:1994-09-01
+                    Edad:26 años
+                    Estatura:1,77 mts.
+                    Peso:66 Kgs.
+                    Web:www.carlossainz.es
+                    Debut en la F1:GP de Australia 2015 (Toro Rosso)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:2
+                    Poles Positions:0</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Leclerc.jpg</fotoPiloto2>
         <nombrePiloto2>Charles Leclerc #16</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Monte Carlo, Mónaco
+                Fecha de Nacimiento:1997-10-16
+                Edad:23 años
+                Estatura:1,80 mts.
+                Peso:67 Kgs.
+                Web:www.charles-leclerc.com
+                Debut en la F1:GP de Australia 2018 (Sauber)
+                Campeonatos F1:Ningún título mundial
+                Victorias:2
+                Podiums:12
+                Poles Positions:9</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoFerrari.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Scuderia Ferrari es la división deportiva (Gestione Sportiva) de automóviles Ferrari encargada de las competiciones de Fórmula 1. Ferrari Corse Clienti se encarga desde hace poco de casi todas las otras actividades deportivas de la compañía y la atención a equipos privados. La primera participación de Ferrari en Fórmula 1 fue en el Gran Premio de Mónaco de 1950, con el Tipo 125 F1. Ferrari es considerado uno de los cuatro grandes equipos de Fórmula 1, junto con Williams, McLaren y Mercedes.7​ Es el equipo activo más antiguo del campeonato, y es el que ha conseguido más victorias, campeonatos de pilotos (15) y campeonatos de constructores (16). Ha contado con muchos de los pilotos más destacados de la historia de la Fórmula 1 como Michael Schumacher, Niki Lauda, Juan Manuel Fangio, Alain Prost, Nigel Mansell, Gilles Villeneuve, Kimi Räikkönen, Sebastian Vettel, Charles Leclerc y Fernando Alonso, entre otros. Los pilotos actuales son Carlos Sainz Jr y Charles Leclerc. El director del equipo es Mattia Binotto. En sport prototipos y gran turismos, Ferrari ha obtenido nueve victorias absolutas en las 24 Horas de Le Mans, ocho en la Mille Miglia y siete en la Targa Florio; además ha conquistado múltiples títulos de constructores en el Campeonato Mundial de Resistencia.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel4</carrousel>
@@ -69,12 +129,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Norris.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo4</dialogoCardPilotos>
         <nombrePiloto1>Lando Norris #4</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Bristol, Gran Bretaña
+                    Fecha de Nacimiento:1999-11-13
+                    Edad:21 años
+                    Estatura:1,70 mts.
+                    Peso:64 Kgs.
+                    Web:www.landonorris.com
+                    Debut en la F1:GP de Australia 2019 (McLaren)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:2
+                    Poles Positions:0</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ricciardo.jpg</fotoPiloto2>
         <nombrePiloto2>Daniel Ricciardo #3</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2>Lugar de Nacimiento:Perth, Australia
+                    Fecha de Nacimiento:1989-07-01
+                    Edad:31 años
+                    Estatura:1,78 mts.
+                    Peso:66 Kgs.
+                    Web:www.danielricciardo.com
+                    Debut en la F1:GP de Gran Bretaña 2011 (HRT)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:7
+                    Podiums:31
+                    Poles Positions:3</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMcLaren.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>McLaren Racing Limited, conocida generalmente como McLaren o, también, McLaren F1 Team,1​ es una escudería británica de automovilismo con sede en Woking (Surrey, Inglaterra), fundada en 1963 por Bruce McLaren. Es considerado uno de los cuatro grandes equipos de Fórmula 1, junto con Williams, Ferrari y Mercedes.7​ A lo largo de los años ha obtenido 8 Campeonatos de Constructores (tercera en el historial), 12 Campeonatos de Pilotos (segunda), 182 victorias (segunda), 155 poles (segunda) y 489 podios (segunda). En su rol de constructor, McLaren también ha desarrollado automóviles de carreras para diversos campeonatos. El equipo oficial McLaren dominó la CanAm entre 1967 y 1971. Los monoplazas de McLaren también obtuvieron tres victorias en las 500 Millas de Indianápolis de 1972, 1974 y 1976, dos de ellas con el equipo oficial. El equipo forma parte del Grupo McLaren, fundado en 1989, que posee divisiones de tecnologías aplicadas, electrónica y otros rubros. Entre los pilotos más destacados en la historia en McLaren se encuentran Emerson Fittipaldi, James Hunt, Johnny Rutherford, Niki Lauda, Alain Prost, Ayrton Senna, Mika Häkkinen, Kimi Räikkönen, Fernando Alonso y Lewis Hamilton.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel5</carrousel>
@@ -88,12 +168,33 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Alonso.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo5</dialogoCardPilotos>
         <nombrePiloto1>Fernando Alonso #14</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Oviedo, España
+                    Fecha de Nacimiento:1981-07-29
+                    Edad:39 años
+                    Estatura:1,71 mts.
+                    Peso:68 Kgs.
+                    Web:www.fernandoalonso.com
+                    Debut en la F1:GP de Australia 2001 (Minardi)
+                    Campeonatos F1:2 títulos mundiales (2005 y 2006 con Renault)
+                    Victorias:32
+                    Podiums:97
+                    Poles Positions:22</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ocon.jpg</fotoPiloto2>
         <nombrePiloto2>Esteban Ocon #31</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Évreux, Francia
+                    Fecha de Nacimiento:1996-09-17
+                    Edad:24 años
+                    Estatura:1,86 mts.
+                    Peso:66 Kgs.
+                    Web:www.esteban-ocon.com
+                    Debut en la F1:GP de Bélgica 2016 (Manor)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:1
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlpine.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Alpine F1 Team es una escudería francesa de Fórmula 1 con sede en Reino Unido propiedad del Grupo Renault que hizo su debut en la temporada 2021. Reemplazó a Renault para promocionar a Automobiles Alpine. En septiembre de 2020, Renault eligió usar el nombre «Alpine» para promocionar la empresa hermana de la marca francesa llamada Automobiles Alpine mediante la compra de los derechos de nombre de Renault convirtiéndose en «Alpine F1 Team», poniendo fin después de cinco años a «Renault F1 Team».
+</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel6</carrousel>
@@ -107,12 +208,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Gasly.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo6</dialogoCardPilotos>
         <nombrePiloto1>Pierre Gasly #10</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Rouen, Francia
+                Fecha de Nacimiento:1996-02-07
+                Edad:25 años
+                Estatura:mts.
+                Peso:Kgs.
+                Web:www.pierregasly.com
+                Debut en la F1:GP de Malasia 2017 (Toro Rosso)
+                Campeonatos F1:Ningún título mundial
+                Victorias:1
+                Podiums:2
+                Poles Positions:0</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Tsunoda.jpg</fotoPiloto2>
         <nombrePiloto2>Yuki Tsunoda #22</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Sagamihara, Japón
+                    Fecha de Nacimiento:2000-05-11
+                    Edad:21 años
+                    Estatura:1,60 mts.
+                    Peso:53 Kgs.
+                    Web:www.yukitsunoda.com
+                    Debut en la F1:GP de Bahrein 2021 (AlphaTauri)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlphaTauri.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Scuderia AlphaTauri, conocida hasta 2019 como Scuderia Toro Rosso,5​ es una escudería de Fórmula 1 creada a finales de 2005, después de la compra de la escudería Minardi por parte de Red Bull.6​ Actúa como equipo filial del equipo Red Bull Racing, formando jóvenes promesas para dar el salto a la escudería "madre". Solo Sébastien Bourdais compitió con Toro Rosso sin formar parte del programa de jóvenes pilotos de Red Bull. En palabras de su jefe de equipo Franz Tost, Toro Rosso es la expresión de "juventud, energía, dinamismo y agresividad", lo que abarca el llevar a nuevos pilotos a la F1.10​ Su sede radica en Faenza, Italia; pero trabajan con un túnel de viento situado en Bicester, Inglaterra.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel7</carrousel>
@@ -126,12 +247,33 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Vettel.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo7</dialogoCardPilotos>
         <nombrePiloto1>Sebastian Vettel #5</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Heppenheim, Alemania
+                    Fecha de Nacimiento:1987-07-03
+                    Edad:33 años
+                    Estatura:1,74 mts.
+                    Peso:64 Kgs.
+                    Web:www.sebastianvettel.de
+                    Debut en la F1:GP de Estados Unidos 2007 (BMW Sauber)
+                    Campeonatos F1:4 títulos mundiales (2010, 2011, 2012 y 2013 con Red Bull)
+                    Victorias:53
+                    Podiums:121
+                    Poles Positions:57</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Stroll.jpg</fotoPiloto2>
         <nombrePiloto2>Lance Stroll #18</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Montreal, Canadá
+                    Fecha de Nacimiento:1998-10-29
+                    Edad:22 años
+                    Estatura:1,80 mts.
+                    Peso:70 Kgs.
+                    Web:www.lancestroll.com
+                    Debut en la F1:GP de Australia 2017 (Williams)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:3
+                    Poles Positions:1
+                    </infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAstonMartin.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Aston Martin compitió en Fórmula 1 entre 1959 y 1960 como equipo, donde disputó 5 Grandes Premios sin sumar puntos. En 2018 el fabricante regresó a la Fórmula 1 como principal patrocinador del equipo Red Bull Racing, el cual pasó a llamarse Aston Martin Red Bull Racing. A finales de 2020 Lawrence Stroll invirtió en Aston Martin £182 millones de libras, lo cual le proporcionó el 20 % de las acciones del fabricante, con tal movimiento decide usar la imagen de Aston Martin para convertir a partir de 2021 al equipo Racing Point en Aston Martin F1 Team,1​2​ dando por terminada la relación del fabricante con el equipo Red Bull a partir de la finalización de la temporada 2020.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel8</carrousel>
@@ -145,12 +287,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Raikkonen.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo8</dialogoCardPilotos>
         <nombrePiloto1>Kimi Räikkönen #7</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Espoo, Finlandia
+                    Fecha de Nacimiento:1979-10-17
+                    Edad:41 años
+                    Estatura:1,75 mts.
+                    Peso:71 Kgs.
+                    Web:www.kimiraikkonen.com
+                    Debut en la F1:GP de Australia 2001 (Sauber)
+                    Campeonatos F1:1 título mundial (2007 con Ferrari)
+                    Victorias:21
+                    Podiums:103
+                    Poles Positions:18</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Giovinazzi.jpg</fotoPiloto2>
         <nombrePiloto2>Antonio Giovinazzi #99</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Martina Franca, Italia
+                    Fecha de Nacimiento:1993-12-14
+                    Edad:27 años
+                    Estatura:1,83 mts.
+                    Peso:63 Kgs.
+                    Web:www.antoniogiovinazzi.com
+                    Debut en la F1:GP de Australia 2017 (Sauber)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlfaRomeo.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Alfa Romeo ha participado como una escudería de Fórmula 1 en diferentes periodos. Antes de su retorno como equipo constructor en 2019 tras renombrar la estructura de Sauber2​3​ y asumir la licencia suiza, participó en los campeonatos de las temporadas 1950, 1951 y entre 1979 y 1985 como escudería italiana. Sus éxitos se dieron principalmente antes del establecimiento del Campeonato del Mundo y en los dos primeros años de este, no consiguiendo en su vuelta reverdecer los laureles. Ya en los años 1920, algunos Alfa competían en los circuitos europeos y bien pronto se constituyó un equipo oficial de la marca dirigido por el propio Nicola Romeo, en el que corrieron grandes pilotos de la época como Giuseppe Campari, Ugo Sivocci, Antonio Ascari, Enzo Ferrari, Gastone Brilli-Peri o Louis Wagner.</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel9</carrousel>
@@ -164,12 +326,33 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Russell.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo9</dialogoCardPilotos>
         <nombrePiloto1>George Russell #63</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:King’s Lynn, Gran Bretaña
+                    Fecha de Nacimiento:1998-02-15
+                    Edad:23 años
+                    Estatura:1,86 mts.
+                    Peso:68 Kgs.
+                    Web:www.georgerussell63.com
+                    Debut en la F1:GP de Australia 2019 (Williams)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Latifi.jpg</fotoPiloto2>
         <nombrePiloto2>Nicholas Latifi #6</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Toronto, Canadá
+                    Fecha de Nacimiento:1995-06-29
+                    Edad:25 años
+                    Estatura:1,85 mts.
+                    Peso:75 Kgs.
+                    Web:www.nicholaslatifi.com
+                    Debut en la F1:GP de Austria 2020 (Williams)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Williams Racing, comúnmente conocido como Williams, es un equipo de Fórmula 1 creado en 1977 por Frank Williams y Patrick Head. Fue fundado bajo el nombre de Williams Grand Prix Engineering, teniendo diferentes cambios de nombre con el correr de los años. Williams es considerado uno de los cuatro grandes equipos de Fórmula 1, junto con Ferrari, McLaren y Mercedes.​ La primera carrera de la escudería fue en el Gran Premio de España de 1977, cuando el equipo corrió con un chasis March y Patrick Nève como piloto. Williams comenzó a construir sus propios autos el año siguiente. El suizo Clay Regazzoni ganó la primera carrera para el equipo en el Gran Premio de Gran Bretaña de 1979, mientras que en el Gran Premio de Gran Bretaña de 1997, el canadiense Jacques Villeneuve ganó la carrera número 100 para el equipo. De esta manera, Williams se convirtió en uno de los únicos tres equipos en Fórmula 1, junto con Ferrari y el también inglés McLaren, en ganar 100 carreras. Siete pilotos han sido campeones mundiales con Williams: Alan Jones, Keke Rosberg, Nelson Piquet, Nigel Mansell, Alain Prost, Damon Hill y Jacques Villeneuve. A su vez, el equipo ganó 9 Campeonatos de Constructores entre 1980 y 1997. Este fue un récord hasta que Ferrari lo superó en el año 2000. Williams ha trabajado con muchos constructores de motores, pero más satisfactoriamente con Renault: Williams ganó 5 de sus 9 Campeonatos de Constructores con la casa francesa. Todos los autos de Williams son llamados "FW-número", por las iniciales del cofundador del equipo, Frank Williams. Además de Fórmula 1, Williams también participó en otros campeonatos de automovilismo, tanto como constructor como equipo. En 2020, tras más de 40 años de participación y a pesar del prestigio cosechado en el ámbito de la Fórmula 1, el equipo fue adquirido por el holding financiero Dorilton Capital, quienes compraron el equipo a la familia Williams en agosto y presentaron a su nueva junta directiva en septiembre.
+</textoEscuderia>
     </elemento>
     <elemento>
         <carrousel>#carrousel10</carrousel>
@@ -183,12 +366,32 @@
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Schumacher.jpg</fotoPiloto1>
         <dialogoCardPilotos>dialogo10</dialogoCardPilotos>
         <nombrePiloto1>Mick Schumacher #47</nombrePiloto1>
-        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <infoPiloto1>Lugar de Nacimiento:Vufflens Le Chateau, Suiza
+                    Fecha de Nacimiento:1999-03-22
+                    Edad:22 años
+                    Estatura:1,76 mts.
+                    Peso:67 Kgs.
+                    Sitio Web:www.mickschumacher.ms
+                    Debut en la F1:GP de Bahrein 2021 (Haas)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto1>
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Mazepin.jpg</fotoPiloto2>
         <nombrePiloto2>Nikita Mazepin #9</nombrePiloto2>
-        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <infoPiloto2> Lugar de Nacimiento:Moscú, Rusia
+                    Fecha de Nacimiento:1999-03-02
+                    Edad:22 años
+                    Estatura:1,76 mts.
+                    Peso:68 Kgs.
+                    Web:www.nikitamazepin.com
+                    Debut en la F1:GP de Bahrein 2021 (Haas)
+                    Campeonatos F1:Ningún título mundial
+                    Victorias:0
+                    Podiums:0
+                    Poles Positions:0</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
-        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+        <textoEscuderia>Haas F1 Team, anteriormente conocido bajo el nombre de Haas Racing Developments,​ es un equipo estadounidense de carreras de Fórmula 1 construido por el empresario y copropietario del equipo Stewart-Haas Racing de la NASCAR Sprint Cup Series, Gene Haas, tras tener la propuesta de Guenther Steiner y que fue fundado y aprobada su entrada por la comisión de la FIA y por Bernie Ecclestone en el mes de abril de 2014. El equipo debutó en la temporada 2016. Haas tiene su sede en Kannapolis, Carolina del Norte, junto a las instalaciones del equipo filial de la NASCAR Cup Series, el Stewart-Haas Racing. A partir de la temporada 2021 la empresa química Uralkali se convierte en el principal patrocinador del equipo, lo cual hace que el equipo pase a llamarse Uralkali Haas F1 Team.</textoEscuderia>
     </elemento>
     
 </carrousel>
