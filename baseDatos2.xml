@@ -9,6 +9,7 @@
         <nombreEquipo>Mercedes AWG</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMercedes.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo1</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Hamilton.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -27,6 +28,7 @@
         <nombreEquipo>Red Bull Racing</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheRedBull.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo2</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Verstappen.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -45,6 +47,7 @@
         <nombreEquipo>Ferrari</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheFerrari.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo3</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Sainz.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -63,6 +66,7 @@
         <nombreEquipo>McLaren</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMcLaren.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo4</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Norris.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -81,6 +85,7 @@
         <nombreEquipo>Alpine</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlpine.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo5</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Alonso.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -99,6 +104,7 @@
         <nombreEquipo>Alpha Tauri</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlphaTauri.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo6</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Gasly.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -117,6 +123,7 @@
         <nombreEquipo>Aston Martin</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAstonMartin.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo7</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Vettel.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -135,6 +142,7 @@
         <nombreEquipo>Alfa Romeo</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlfaRomeo.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo8</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Raikkonen.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -153,6 +161,7 @@
         <nombreEquipo>Williams</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheWilliams.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo9</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Russell.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
@@ -171,6 +180,7 @@
         <nombreEquipo>Haas F1 Team</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheHaas.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <dialogoCardPilotos>dialogo10</dialogoCardPilotos>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Schumacher.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
         <infoPiloto1>Pais:Reino Unido</infoPiloto1>
