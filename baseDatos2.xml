@@ -6,7 +6,7 @@
         <colapseEquipo>colapseEquipo1</colapseEquipo>
         <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
         <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoMercedes.jpg</fotoSlide1>
-        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <nombreEquipo>Mercedes</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMercedes.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Hamilton.jpg</fotoPiloto1>
@@ -25,7 +25,7 @@
         <colapseEquipo>colapseEquipo2</colapseEquipo>
         <colapseEscuderia>colapseEscuderia2</colapseEscuderia>
         <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoRedBull.jpg</fotoSlide1>
-        <nombreEquipo>Red Bull Racing</nombreEquipo>
+        <nombreEquipo>Red Bull</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheRedBull.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Verstappen.jpg</fotoPiloto1>
@@ -177,7 +177,7 @@
         <colapseEquipo>colapseEquipo10</colapseEquipo>
         <colapseEscuderia>colapseEscuderia10</colapseEscuderia>
         <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoHaas.jpg</fotoSlide1>
-        <nombreEquipo>Haas F1 Team</nombreEquipo>
+        <nombreEquipo>Haas</nombreEquipo>
         <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheHaas.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Schumacher.jpg</fotoPiloto1>
