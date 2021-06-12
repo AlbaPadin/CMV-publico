@@ -5,63 +5,179 @@
         <colapseLogo>colapseLogo1</colapseLogo>
         <colapseEquipo>colapseEquipo1</colapseEquipo>
         <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
-        <fotoSlide1>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide1>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoMercedes.jpg</fotoSlide1>
         <nombreEquipo>Mercedes AWG</nombreEquipo>
-        <fotoSlide2>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide2>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMercedes.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
-        <fotoPiloto1>https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1024.medium.jpg/1616676634721.jpg</fotoPiloto1>
-        <infoPiloto1>Lewis Hamilton. Nº44. Pais:Reino Unido</infoPiloto1>
-        <fotoPiloto2>https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1024.medium.jpg/1616676580165.jpg</fotoPiloto2>
-        <infoPiloto2>Valtteri Bottas. Nº77. Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide3>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Hamilton.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Bottas.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMercedes.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     <elemento>
-        <carrousel>#carrousel2</carrousel>
-        <colapseLogo>colapseLogo2</colapseLogo>
-        <colapseEquipo>colapseEquipo2</colapseEquipo>
-        <colapseEscuderia>colapseEscuderia2</colapseEscuderia>
-        <fotoSlide1>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide1>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoRedBull.jpg</fotoSlide1>
         <nombreEquipo>Mercedes AWG</nombreEquipo>
-        <fotoSlide2>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide2>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheRedBull.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
-        <fotoPiloto1>https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1024.medium.jpg/1616676634721.jpg</fotoPiloto1>
-        <infoPiloto1>Lewis Hamilton. Nº44. Pais:Reino Unido</infoPiloto1>
-        <fotoPiloto2>https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1024.medium.jpg/1616676580165.jpg</fotoPiloto2>
-        <infoPiloto2>Valtteri Bottas. Nº77. Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide3>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Verstappen.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Perez.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     <elemento>
-        <carrousel>#carrousel3</carrousel>        
-        <colapseLogo>colapseLogo3</colapseLogo>
-        <colapseEquipo>colapseEquipo3</colapseEquipo>
-        <colapseEscuderia>colapseEscuderia3</colapseEscuderia>
-        <fotoSlide1>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide1>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoFerrari.jpg</fotoSlide1>
         <nombreEquipo>Mercedes AWG</nombreEquipo>
-        <fotoSlide2>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide2>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheFerrari.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
-        <fotoPiloto1>https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1024.medium.jpg/1616676634721.jpg</fotoPiloto1>
-        <infoPiloto1>Lewis Hamilton. Nº44. Pais:Reino Unido</infoPiloto1>
-        <fotoPiloto2>https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1024.medium.jpg/1616676580165.jpg</fotoPiloto2>
-        <infoPiloto2>Valtteri Bottas. Nº77. Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://i0.wp.com/alvolante.com.uy/wp-content/uploads/2018/01/Mercedes-AMG-Petronas-F1-Team-Logo.jpg?ssl=1</fotoSlide3>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Sainz.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Leclerc.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoFerrari.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     <elemento>
-        <carrousel>#carrousel4</carrousel>
-        <colapseLogo>colapseLogo4</colapseLogo>
-        <colapseEquipo>colapseEquipo4</colapseEquipo>
-        <colapseEscuderia>colapseEscuderia4</colapseEscuderia>
-        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlfaRomeo.jpg</fotoSlide1>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoMcLaren.jpg</fotoSlide1>
         <nombreEquipo>Mercedes AWG</nombreEquipo>
-        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlfaRomeo.jpg</fotoSlide2>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMcLaren.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
-        <fotoPiloto1>https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1024.medium.jpg/1616676634721.jpg</fotoPiloto1>
-        <infoPiloto1>Lewis Hamilton. Nº44. Pais:Reino Unido</infoPiloto1>
-        <fotoPiloto2>https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1024.medium.jpg/1616676580165.jpg</fotoPiloto2>
-        <infoPiloto2>Valtteri Bottas. Nº77. Pais:Finlandia</infoPiloto2>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Norris.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ricciardo.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMcLaren.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlpine.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlpine.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Alonso.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ocon.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlpine.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAphaTauri.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAphaTauri.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Gasly.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Tsunoda.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAphaTauri.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAstonMartin.png</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAstonMartin.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Vettel.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Stroll.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAstonMartin.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlfaRomeo.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlfaRomeo.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Raikkonen.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Giovinazzi.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
         <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlfaRomeo.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoWilliams.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheWilliams.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Russell.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Latifi.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoWilliams.jpg</fotoSlide3>
+        <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoHaas.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes AWG</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheHaas.png</fotoSlide2>
+        <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Schumacher.jpg</fotoPiloto1>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Pais:Reino Unido</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Mazepin.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Pais:Finlandia</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoHaas.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     
