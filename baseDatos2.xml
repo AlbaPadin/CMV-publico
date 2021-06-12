@@ -95,9 +95,9 @@
         <colapseLogo>colapseLogo1</colapseLogo>
         <colapseEquipo>colapseEquipo1</colapseEquipo>
         <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
-        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAphaTauri.jpg</fotoSlide1>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlphaTauri.jpg</fotoSlide1>
         <nombreEquipo>Mercedes AWG</nombreEquipo>
-        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAphaTauri.png</fotoSlide2>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlphaTauri.png</fotoSlide2>
         <textoPilotosyMonoplaza>El nombre del monoplaza de mercedes para la temporada de F1 2021 es: W12</textoPilotosyMonoplaza>
         <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Gasly.jpg</fotoPiloto1>
         <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
@@ -105,7 +105,7 @@
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Tsunoda.jpg</fotoPiloto2>
         <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
         <infoPiloto2> Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAphaTauri.jpg</fotoSlide3>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlphaTauri.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     <elemento>
@@ -159,7 +159,7 @@
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Latifi.jpg</fotoPiloto2>
         <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
         <infoPiloto2> Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoWilliams.jpg</fotoSlide3>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     <elemento>
@@ -177,7 +177,7 @@
         <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Mazepin.jpg</fotoPiloto2>
         <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
         <infoPiloto2> Pais:Finlandia</infoPiloto2>
-        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoHaas.jpg</fotoSlide3>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
         <textoEscuderia>El equipo mercedes ha ganado 7 mundiales. Esta al mando de Toto Wolf. Nombre completo: 	Mercedes-AMG Petronas F1 Team.</textoEscuderia>
     </elemento>
     
