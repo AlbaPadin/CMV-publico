@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carrousel>
     <elemento>
-        <num>1</num>
         <nombrePiloto>Max Verstappen</nombrePiloto>
         <nacion>NED</nacion>
         <coche>RED BULL RACING HONDA</coche>
         <puntos>105</puntos>
     </elemento>
     <elemento>
+        <num>2</num>
+        <nombrePiloto>Lewis Hamilton</nombrePiloto>
+        <nacion>GBR</nacion>
+        <coche>MERCEDES</coche>
+        <puntos>101</puntos>
+    </elemento>
+    <elemento>
         <num>1</num>
-        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nombrePiloto>Sergio Perez</nombrePiloto>
         <nacion>NED</nacion>
         <coche>RED BULL RACING HONDA</coche>
         <puntos>105</puntos>
     </elemento>
     <elemento>
         <num>1</num>
-        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nombrePiloto>Lando Norris</nombrePiloto>
         <nacion>NED</nacion>
         <coche>RED BULL RACING HONDA</coche>
         <puntos>105</puntos>
     </elemento>
     <elemento>
         <num>1</num>
-        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nombrePiloto>Charles Leclerc</nombrePiloto>
         <nacion>NED</nacion>
         <coche>RED BULL RACING HONDA</coche>
         <puntos>105</puntos>
     </elemento>
     <elemento>
         <num>1</num>
-        <nombrePiloto>Max Verstappen</nombrePiloto>
-        <nacion>NED</nacion>
-        <coche>RED BULL RACING HONDA</coche>
-        <puntos>105</puntos>
-    </elemento>
-    <elemento>
-        <num>1</num>
-        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nombrePiloto>Valtteri Bottas</nombrePiloto>
         <nacion>NED</nacion>
         <coche>RED BULL RACING HONDA</coche>
         <puntos>105</puntos>
