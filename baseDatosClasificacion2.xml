@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrousel>
+    <elemento>
+        <id>uno</id>
+        <num>1</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>dos</id>
+        <num>2</num>
+        <nombrePiloto>Lewis Hamilton</nombrePiloto>
+        <nacion>GBR</nacion>
+        <coche>MERCEDES</coche>
+        <puntos>101</puntos>
+    </elemento>
+    <elemento>
+        <id>tres</id>
+        <num>3</num>
+        <nombrePiloto>Sergio Perez</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cuatro</id>
+        <num>4</num>
+        <nombrePiloto>Lando Norris</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>5</num>
+        <nombrePiloto>Charles Leclerc</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>6</num>
+        <nombrePiloto>Valtteri Bottas</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>7</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>8</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>9</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>10</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>11</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>12</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>13</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>14</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>15</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>16</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>17</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>18</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>19</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>20</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+</carrousel>
