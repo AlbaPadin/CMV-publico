@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrousel>
+    <elemento>
+        <carrousel>#carrousel1</carrousel>
+        <colapseLogo>colapseLogo1</colapseLogo>
+        <colapseEquipo>colapseEquipo1</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia1</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoMercedes.jpg</fotoSlide1>
+        <nombreEquipo>Mercedes</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMercedes.png</fotoSlide2>
+        <textoPilotosyMonoplaza>W12: El monoplaza de Mercedes para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Hamilton.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo1</dialogoCardPilotos>
+        <nombrePiloto1>Lewis Hamilton #44</nombrePiloto1>
+        <infoPiloto1>Nacido en Stevenage, Gran Bretaña, el 07/01/1985, tiene actualmente 36 años. Debutó en la fórmula 1 en el GP de Australia 2007 y desde entonces ha conseguido 7 títulos mundiales, 98 victorias y 169 podiums y más de 100 poles.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Bottas.jpg</fotoPiloto2>
+        <nombrePiloto2>Valtteri Bottas #77</nombrePiloto2>
+        <infoPiloto2> Nacido en Villähde, Finlandia, el 28/08/1989, tiene actualmente 31 años. Debutó en la fórmula 1 en el GP de Australia 2013 y desde entonces ha conseguido 9 victorias, 58 podiums y 17 poles.</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMercedes.jpg</fotoSlide3>
+        <textoEscuderia>Es una de las automotrices más exitosas de la Fórmula 1. Inició su participación en 1954, ganó siete Campeonatos de Constructores de forma consecutiva (de 2014 a 2020). Es el tercer equipo con más Campeonatos de Pilotos con nueve. </textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel2</carrousel>
+        <colapseLogo>colapseLogo2</colapseLogo>
+        <colapseEquipo>colapseEquipo2</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia2</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoRedBull.jpg</fotoSlide1>
+        <nombreEquipo>Red Bull</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheRedBull.png</fotoSlide2>
+        <textoPilotosyMonoplaza>RB16-B: El monoplaza de Red Bull para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Verstappen.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo2</dialogoCardPilotos>
+        <nombrePiloto1>Max Verstappen #33</nombrePiloto1>
+        <infoPiloto1>Nacido en Hasselt, Bélgica, el 30/09/1997, tiene actualmente 23 años. Debutó en la fórmula 1 en el GP de Australia 2015 (Toro Rosso) y desde entonces ha conseguido 11 victorias, 47 podiums y 4 poles.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Perez.jpg</fotoPiloto2>
+        <nombrePiloto2>Sergio Pérez #11</nombrePiloto2>
+        <infoPiloto2> Nacido en Guadalajara, México, el 26/01/1990, tiene actualmente 31 años. Debutó en la fórmula 1 en el GP de Australia 2011 (Sauber) y desde entonces ha conseguido 2 victorias y 10 podiums.</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoRedBull.jpg</fotoSlide3>
+        <textoEscuderia>Escudería austriaca con base en Milton Keynes (Inglaterra) propiedad de la empresa de bebidas energéticas Red Bull, previamente conocida como escudería Jaguar Racing. Debutó en 2005 cuenta con 4 títulos mundiales de pilotos.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel3</carrousel>
+        <colapseLogo>colapseLogo3</colapseLogo>
+        <colapseEquipo>colapseEquipo3</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia3</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoFerrari.jpg</fotoSlide1>
+        <nombreEquipo>Ferrari</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheFerrari.png</fotoSlide2>
+        <textoPilotosyMonoplaza>SF21: El monoplaza de Ferrari para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Sainz.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo3</dialogoCardPilotos>
+        <nombrePiloto1>Carlos Sainz #55</nombrePiloto1>
+        <infoPiloto1>Nacido en Madrid, España, el 1/09/1994, tiene actualmente 26 años. Debutó en la fórmula 1 en el GP de Australia 2015 (Toro Rosso) y desde entonces ha conseguido 2 podiums.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Leclerc.jpg</fotoPiloto2>
+        <nombrePiloto2>Charles Leclerc #16</nombrePiloto2>
+        <infoPiloto2> Nacido en Monte Carlo, Mónaco, el 16/10/1997, tiene actualmente 23 años. Debutó en la fórmula 1 en el GP de Australia 2018 (Sauber) y desde entonces ha conseguido 2 victorias, 12 podiums y 9 poles position.</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoFerrari.jpg</fotoSlide3>
+        <textoEscuderia>La primera participación del equipo fue en el Gran Premio de Mónaco de 1950, con el Tipo 125 F1. Ferrari es considerado uno de los cuatro grandes equipos de Fórmula 1 y es el equipo activo más antiguo del campeonato y con mayor número de vistorias y campeonatos. </textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel4</carrousel>
+        <colapseLogo>colapseLogo4</colapseLogo>
+        <colapseEquipo>colapseEquipo4</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia4</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoMcLaren.jpg</fotoSlide1>
+        <nombreEquipo>McLaren</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheMcLaren.png</fotoSlide2>
+        <textoPilotosyMonoplaza>MCL35M: El monoplaza de McLaren para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Norris.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo4</dialogoCardPilotos>
+        <nombrePiloto1>Lando Norris #4</nombrePiloto1>
+        <infoPiloto1>Nacido en Bristol, Gran Bretaña, el 13/11/1999, tiene actualmente 21 años. Debutó en la fórmula 1 en el GP de Australia 2019 (McLaren) y desde entonces ha conseguido 2 poles.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ricciardo.jpg</fotoPiloto2>
+        <nombrePiloto2>Daniel Ricciardo #3</nombrePiloto2>
+        <infoPiloto2>Nacido en Perth, Australia, el 01/07/1989, tiene actualmente 31 años. Debutó en la fórmula 1 en el GP de Gran Bretaña 2011 (HRT) y desde entonces ha conseguido 7 victorias, 31 podiums y 3 poles.</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoMcLaren.jpg</fotoSlide3>
+        <textoEscuderia>Escudería británica con sede en Woking (Inglaterra), fundada en 1963 por Bruce McLaren. Es considerado uno de los cuatro grandes equipos de Fórmula 1, ha obtenido 8 Campeonatos de Constructores, 12 Campeonatos de Pilotos, y más de 180 victorias.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel5</carrousel>
+        <colapseLogo>colapseLogo5</colapseLogo>
+        <colapseEquipo>colapseEquipo5</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia5</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlpine.jpg</fotoSlide1>
+        <nombreEquipo>Alpine</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlpine.png</fotoSlide2>
+        <textoPilotosyMonoplaza>A521: El monoplaza de Alpine para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Alonso.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo5</dialogoCardPilotos>
+        <nombrePiloto1>Fernando Alonso #14</nombrePiloto1>
+        <infoPiloto1>Nacido en Oviedo, Asturias, el 29/07/1981, tiene actualmente 39 años. Debutó en la fórmula 1 en el GP de Australia 2001 (Minardi) y desde entonces ha conseguido 2 campeonatos mundiales, 32 victorias y 22 podiums.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Ocon.jpg</fotoPiloto2>
+        <nombrePiloto2>Esteban Ocon #31</nombrePiloto2>
+        <infoPiloto2>Nacido en Évreux, Francia, el 17/09/1996, tiene actualmente 24 años. Debutó en la fórmula 1 en el GP de Bélgica 2016 (Manor) y desde entonces ha conseguido 1 pol position.</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlpine.jpg</fotoSlide3>
+        <textoEscuderia>Alpine F1 Team es una escudería francesa de Fórmula 1 con sede en Reino Unido propiedad del Grupo Renault que hizo su debut en la temporada 2021</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel6</carrousel>
+        <colapseLogo>colapseLogo6</colapseLogo>
+        <colapseEquipo>colapseEquipo6</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia6</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlphaTauri.jpg</fotoSlide1>
+        <nombreEquipo>Alpha Tauri</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlphaTauri.png</fotoSlide2>
+        <textoPilotosyMonoplaza>AT02: El monoplaza de Alpha Tauri para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Gasly.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo6</dialogoCardPilotos>
+        <nombrePiloto1>Pierre Gasly #10</nombrePiloto1>
+        <infoPiloto1>Nacido en Rouen, Francia, el 7/02/1996, tiene actualmente 25 años. Debutó en la fórmula 1 en el GP de Malasia 2017 (Toro Rosso) y desde entonces ha conseguido 1 victoria y 2 podiums.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Tsunoda.jpg</fotoPiloto2>
+        <nombrePiloto2>Yuki Tsunoda #22</nombrePiloto2>
+        <infoPiloto2> Nacido en Sagamihara, Japón, el 11/05/2000, tiene actualmente 21 años. Debutó en la fórmula 1 en el GP de Bahrein 2021 (AlphaTauri).</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlphaTauri.jpg</fotoSlide3>
+        <textoEscuderia>Conocida hasta 2019 como Scuderia Toro Rosso, creada a finales de 2005, después de la compra de la escudería Minardi por parte de Red Bull.​ Actúa como equipo filial del equipo Red Bull Racing, formando jóvenes promesas. Su sede radica en Faenza, Italia.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel7</carrousel>
+        <colapseLogo>colapseLogo7</colapseLogo>
+        <colapseEquipo>colapseEquipo7</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia7</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAstonMartin.jpg</fotoSlide1>
+        <nombreEquipo>Aston Martin</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAstonMartin.png</fotoSlide2>
+        <textoPilotosyMonoplaza>AMR21: El monoplaza de Aston Martin para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Vettel.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo7</dialogoCardPilotos>
+        <nombrePiloto1>Sebastian Vettel #5</nombrePiloto1>
+        <infoPiloto1>Nacido en Heppenheim, Alemania, el 3/07/1987, tiene actualmente 33 años. Debutó en la fórmula 1 en el GP de Estados Unidos 2007 (BMW Sauber) y desde entonces ha conseguido 4 campeonatos mundiales, 53 victorias y 121 podiums.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Stroll.jpg</fotoPiloto2>
+        <nombrePiloto2>Lance Stroll #18</nombrePiloto2>
+        <infoPiloto2>Nacido en Montreal, Canadá, el 29/10/1998, tiene actualmente 32 años. Debutó en la fórmula 1 en el GP de Australia 2017 (Williams) y desde entonces ha conseguido 3 podiums y 1 pol position. </infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAstonMartin.jpg</fotoSlide3>
+        <textoEscuderia>Debutó en 1959 y volvió al circuito en 2018 como principal patrocinador del equipo Red Bull Racing, terminando su relación con la marca Red bull en 2020 tras la inversión del empresario Lawrence Stroll y pasando a nombrarse escudería Aston Martin.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel8</carrousel>
+        <colapseLogo>colapseLogo8</colapseLogo>
+        <colapseEquipo>colapseEquipo8</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia8</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoAlfaRomeo.jpg</fotoSlide1>
+        <nombreEquipo>Alfa Romeo</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheAlfaRomeo.png</fotoSlide2>
+        <textoPilotosyMonoplaza>C41: El monoplaza de Alfa Romeo para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Raikkonen.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo8</dialogoCardPilotos>
+        <nombrePiloto1>Kimi Räikkönen #7</nombrePiloto1>
+        <infoPiloto1>Nacido en Espoo, Finlandia, el 17/10/1979 tiene actualmente 41 años. Debutó en la fórmula 1 en el GP de Australia 2001 (Sauber) y desde entonces ha conseguido 1 campeonato mundial, 21 victorias y 103 podiums.</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Giovinazzi.jpg</fotoPiloto2>
+        <nombrePiloto2>Antonio Giovinazzi #99</nombrePiloto2>
+        <infoPiloto2>Nacido en Martina Franca, Italia, el 14/12/1993, tiene actualmente 27 años. Debutó en la fórmula 1 en el GP de Australia 2017 (Sauber).</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoAlfaRomeo.jpg</fotoSlide3>
+        <textoEscuderia>Inició su recorrido por la fórmula 1 en 1950 y ha estado presente en varios periodos antes de regresar en el 2019 heredando la estructura del equipo Sauber con una licencia suiza.</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel9</carrousel>
+        <colapseLogo>colapseLogo9</colapseLogo>
+        <colapseEquipo>colapseEquipo9</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia9</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoWilliams.jpg</fotoSlide1>
+        <nombreEquipo>Williams</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheWilliams.png</fotoSlide2>
+        <textoPilotosyMonoplaza>FW43B: El monoplaza de Williams para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Russell.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo9</dialogoCardPilotos>
+        <nombrePiloto1>George Russell #63</nombrePiloto1>
+        <infoPiloto1>Nacido en King’s Lynn, Gran Bretaña, el 15/02/1998, tiene actualmente 23 años. Debutó en la fórmula 1 en el GP de Australia 2019 (Williams).</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Latifi.jpg</fotoPiloto2>
+        <nombrePiloto2>Nicholas Latifi #6</nombrePiloto2>
+        <infoPiloto2> Nacido en Toronto, Canadá, el 29/06/1995, tiene actualmente 25 años. Debutó en la fórmula 1 en el GP de Austria 2020 (Williams).</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoWilliams.jpg</fotoSlide3>
+        <textoEscuderia>Creado en 1977 por Frank Williams y Patrick Head y considerado uno de los cuatro grandes de Fórmula 1. Debutó en el Gran Premio de España de 1977. Ha conseguido ganar 7 campeonatos mundiales y más de 100 victorias .​</textoEscuderia>
+    </elemento>
+    <elemento>
+        <carrousel>#carrousel10</carrousel>
+        <colapseLogo>colapseLogo10</colapseLogo>
+        <colapseEquipo>colapseEquipo10</colapseEquipo>
+        <colapseEscuderia>colapseEscuderia10</colapseEscuderia>
+        <fotoSlide1>https://albapadin.github.io/CMV-publico/Fotos/LogoHaas.jpg</fotoSlide1>
+        <nombreEquipo>Haas</nombreEquipo>
+        <fotoSlide2>https://albapadin.github.io/CMV-publico/Fotos/CocheHaas.png</fotoSlide2>
+        <textoPilotosyMonoplaza>VF-21: El monoplaza de Haas para la temporada de F1 2021.</textoPilotosyMonoplaza>
+        <fotoPiloto1>https://albapadin.github.io/CMV-publico/Fotos/Schumacher.jpg</fotoPiloto1>
+        <dialogoCardPilotos>dialogo10</dialogoCardPilotos>
+        <nombrePiloto1>Mick Schumacher #47</nombrePiloto1>
+        <infoPiloto1>Nacido en Vufflens Le Chateau, Suiza, el 22/03/1999, tiene actualmente 22 años. Debutó en la fórmula 1 en el GP de Bahrein 2021 (Haas).</infoPiloto1>
+        <fotoPiloto2>https://albapadin.github.io/CMV-publico/Fotos/Mazepin.jpg</fotoPiloto2>
+        <nombrePiloto2>Nikita Mazepin #9</nombrePiloto2>
+        <infoPiloto2> Nacido en Moscú, Rusia, el 2/03/1999, tiene actualmente 22 años. Debutó en la fórmula 1 en el GP de Bahrein 2021 (Haas).</infoPiloto2>
+        <fotoSlide3>https://albapadin.github.io/CMV-publico/Fotos/EquipoHaas.jpg</fotoSlide3>
+        <textoEscuderia>Equipo estadounidense construido por el empresario y copropietario del equipo Gene Haas. Debutó en la temporada 2016 y tiene su sede en Kannapolis, Carolina del Norte.  Desde 2021 la empresa química Uralkali se convierte en el principal patrocinador del equipo.</textoEscuderia>
+    </elemento>
+    
+</carrousel>
