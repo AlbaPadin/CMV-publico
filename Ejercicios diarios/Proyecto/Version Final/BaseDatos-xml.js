@@ -86,7 +86,7 @@ function miFuncion(xml) {
                       <div class="dimension_imagen" alt="logo"><img class="card-img-top" src="${fotoSlide1}" alt="logo" title="${nombreEquipo}">
                       </div>
                       <div class="card-body ${colapseLogo}">
-                        <h4 class="card-title"><p>${nombreEquipo}</p></h4>
+                        <h4 class="card-title"><div>${nombreEquipo}</div></h4>
                         <div id="${colapseLogo}" class="collapse">
                        
                         </div>

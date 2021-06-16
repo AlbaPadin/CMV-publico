@@ -645,6 +645,9 @@ justify-content: center;
     margin: 0px;
     justify-content: center;
 }
+.card-title div p{
+   padding: 0px;
+}
 div p{
     padding-top: 10px;
 }
