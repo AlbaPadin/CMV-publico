@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso Accenture-CMV
+autor: Carlos Boni
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Ejercicios Javascript</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<!-- una hoja de estilos externa-->
+
+	<!-- una hoja de estilos personalizada-->
+	<link href="31-mayo-xml.css" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+	
+
+
+
+	<!-- BOOSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	
+	
+	
+	<style>
+/* Pagina principal */
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/**/
+        :root{
+            --radioBorde:20px;
+        }
+		* {
+			font-family: 'Nunito', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background: lightblue;
+		}
+
+		#contenedor {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			align-items: center;
+			align-content: stretch;
+            margin-left: 50px;
+            margin-bottom: 50px;
+            margin-top: 100px;
+            margin-right: 0px;
+		}
+
+		.subcontenedor{
+			border-radius: 20px;
+			border-color: black;
+			margin-bottom: 30px;
+            margin-right: 65px;
+			display: inline-block;
+            width: 250px;
+            height: 110px;
+            
+		}
+        .subsubcontenedor{
+			background-color: aliceblue;	
+			border-radius: var(--radioBorde);
+			border-color: black;
+			display: inline-block;
+            width: 100%;
+            height: 100%;
+		}
+		.divImg{
+			align-items: center;
+            justify-content: center;
+            height: 68%;
+            display: flex;
+            justify-content: center;
+		}
+        .monoplaza{
+            width: 200%;
+        }
+		.divNombre{
+            /* le ponemos 15% porque las letras ocupan eso como minimo */
+			height: 20%;
+            display: flex;
+            justify-content: center;
+			text-align: center;
+            align-items: center;
+			transform: translate(-50%, 0%);
+			margin-left: 50%;            
+			background-color: rgba(100, 52, 36, 0.2);
+        }
+		.detalle{
+            padding: 5%;
+		}
+		.PieDeFoto {
+            /* le ponemos 10% porque las letras ocupan eso como minimo */
+            height: 12%;
+			background-color: rgba(100, 52, 36, 0.2);
+			text-align: center;
+			transform: translate(-50%, 0%);
+			margin-left: 50%;
+			font-size: 75%;
+		}
+
+/* Flip-Box de las imagenes */
+/*
+/*
+/*
+/*
+/*
+/*
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  width: 150%;
+  height: 120%;
+  margin-left: -25%;
+  margin-top: -5%;
+}
+
+.flip-box-front{
+    
+  box-shadow: 7px 7px 5px grey;  
+  border-radius: var(--radioBorde);
+}
+.flip-box-back{
+    
+    box-shadow: 7px 7px 5px grey;  
+    border-radius: var(--radioBorde);
+    font-size: 75%;
+  }
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+
+
+/* Style the back side */
+.flip-box-back {
+  background-color:lightgray;
+  transform: rotateY(180deg);
+  border-radius: var(--radioBorde);
+ 
+}
+
+
+/* Enlace para ir a detalles desde las fotos
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+ */
+.enlaceDetalles{	
+	text-decoration: none;
+	color:black;
+}
+
+.enlaceDetalles:hover{	
+	text-decoration: none;
+	color:black;
+}
+.enlaceDetalles:active{	
+	text-decoration: none;
+	color:black;
+}
+.enlaceDetalles:hover{
+	color: #ff0000;
+  text-shadow: 0 0 10px #000000;
+}
+
+
+/* Top nav
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+ */
+
+ .topnav {
+		  overflow: hidden;
+		  background-color: white;
+        }
+
+		.topnav a {
+            position: relative;
+		  float: left;
+		  color: black;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 17px;
+		  height: 100%;
+		}
+       
+		.topnav a:hover {
+		  background-color: #dcdcdc;
+		  color: black;
+		}
+
+		.topnav a.active {
+		  background-color: #c0c0c0;
+		  color: white;
+
+		}
+		.divNav{
+			position: relative;
+		}
+		.topnav{
+			display: flex;
+			top:0px;
+		}
+		ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		background-color: white;		
+		width: 60px;
+		height: 60px;
+		}
+
+		li {
+		display: inline;
+		}
+		.topnav img{
+			box-sizing: content-box;
+			width: 300px;
+			height: 60px;
+		}
+		a {
+			padding-top: 18px;
+			padding-left: 16px;
+		    padding-right: 16px;
+			padding-bottom: 10px;
+		}
+		#svg{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		/*VIDEO / CANVAS / SVG
+		/*
+		/*
+		/*
+		/*
+		*/
+		video::cue {
+		background-image: linear-gradient(to bottom, gray, lightgray);
+		color: papayawhip;
+		}
+
+		video::cue(b) {
+		color: peachpuff;
+		}
+		.canvas{
+			display: inline-block;
+		}
+		#contenedor{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 0px;
+		}
+		p{
+			margin:40px;
+			font-size: 2.5rem;
+		}
+		h1, .div{
+			margin-left: 30px;
+		}
+
+
+	</style>
+<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="4-junio-xml-FlipBox.js"></script>
+
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+	
+</head>
+
+
+<body >
+
+	<!-- cabecera de pagina -->
+    <header>
+            <div class="topnav">
+                <ul>
+					
+					<li><a class="active" href="index.html">Inicio</a></li>
+					<li><a href="#">Equipos</a></li>
+					<li><a href="#">Detalles</a></li>
+				</ul>				
+              </div>
+
+
+        
+    </header>
+
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<h1><b>Mi primera página con Drupal</b></h1><br>
+		
+		<p>Para ver el enlace con la explicación de como funciona Drupal, por favor, pinche<a href="https://drive.google.com/file/d/13czFEqyrU75odxi58K_YEEpGzCPWcdv5/view?usp=sharing">aquí</a>.</p>
+		
+	</main>
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<div class="div">Hecho por:  <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a></div>
+	</footer>
+
+</body>
+
+</html>
