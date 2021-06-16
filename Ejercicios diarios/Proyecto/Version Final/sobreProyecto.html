@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Carlos Boni
+fecha: Marzo 2021
+-->
+
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Fotos F1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Russo+One&family=Staatliches&display=swap"
+		rel="stylesheet">
+	<!-- una hoja de estilos externa-->
+
+	<!-- una hoja de estilos personalizada-->
+	<link href="estilos.css" rel="stylesheet" />
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+	<style>
+
+	</style>
+	<script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"> </script>
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		  // aqui el codigo ...
+	</script>
+	<script src="BaseDatos-xml-clasificacion.js"></script>
+	<script src="BaseDatos-xml.js"></script>
+
+</head>
+
+
+<body onload=leerFicheros()>
+	<main>
+		<nav class="navbar navbar-expand-lg navbar-light hola">
+			<a class="navbar-brand" href="index.html">Mundo F1<img src="ruedas.jpg"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="sobreProyecto.html">Sobre el proyecto</a>
+					</li>
+
+				</ul>
+				<li class="liBoton"><button type="button" id="cambio" class=" my-2 my-lg-0 botonLetras fas fa-moon-o"
+						onclick="eventoCambio()">
+						Modo noche</button></li>
+
+			</div>
+		</nav>
+		<div class="marco dia">
+			<div class="encabezado">
+				<img src="checkered-flag-background-vector2.jpg">
+			</div>
+
+			<div class="migas redDia">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">Mundo F1</a></li>
+						<li class="breadcrumb-item active">Sobre el Proyecto</li>
+					</ol>
+				</div>
+			</div>
+
+
+			<div class="contenido dia">
+				<div class="MasContenido__div">
+					<h3 class="dia2">Proyecto "Orla"</h3>
+				</div>
+				<div class="ContenedorTexto">
+
+
+					<p class="blanco">
+						Esta es la conclusión del curso de Front-End realizado, cuyo objetivo principal era la
+						elaboración de una pagina web tipo "orla", o lo que es lo mismo,
+						una pagina donde se muestre una galería de imágenes.
+					</p>
+					<p class="blanco">
+						La pagina obtenida tiene un diseño responsive, es decir, es adaptable a distintos dispositivos,
+						con distintos viewports y tamaños de ventana. Incluye también, a través del botón "Modo día /
+						Modo noche", la posibilidad de cambiar los colores de la página para hacerla más amigable según
+						la hora del día a la que se acceda a ella.
+						Además de eso, se han comprobado los niveles de accesibilidad, y siguiendo las
+						recomentdaciones, se han obtenido resultados óptimos.
+					<p class="blanco">
+						El tema escogido ha sido la F1, por lo que la parte de contenido principal de la pagina se ha
+						elaborado con 10 elementos, cada uno
+						correspondiente a un equipo de F1. Cada elemento está compuesto a su vez por un
+						carrousel, que contiene 3 componentes tipo "card". En la primera carta se puede ver el nombre y
+						el logo del equipo. En la segunda carta se ve una fotografía del monoplaza, con la opcion de un
+						desplegable que ofrece una breve descripción del mismo y un botón donde se accede a la
+						información de los pilotos a través de un modal. La tercera carta también tiene la
+						opcion de desplegar un texto donde se ofrece un resumen de la trayectoria de ese equipo.
+					</p>
+					<p class="blanco">
+						Tanto las imágenes como toda la información mostrada de estos elementos se obtiene a través de
+						la lectura de un fichero .xml alojado en un repositorio público.
+						A parte del contenido tipo "orla", en la parte inferior de la página se ha colocado una tabla
+						donde se muestran los resultados de la competición en estos momentos. Esta tabla
+						también tiene un diseño responsive y la información que se muestra en ella se ha obtenido de
+						otro fichero .xml también alojado en un repositorio público.
+					</p>
+					<p class="blanco">
+						Todo esto es el resultado de los conocicimientos obtenidos durante el curso de Front-End. La
+						trayectoria de aprendizaje del curso se puede apreciar observando los ejercicios diarios realizados
+						en la parte de Front-End. Estos pueden consultarse en el enlace que aparece en la parte
+						inferior. En la pagina de ese enlace, en la parte de "Proyecto" también se pueden ver las
+						diferentes versiones que se han ido haciendo de esta pagina, hasta llegar a esta version final.
+					</p>
+					<div class="blanco">
+						<p class="fa fa-pencil"></p> Enlace a página de ejercicicios: <a class="azul2"
+							href="https://albapadin.github.io/CMV-publico/" target="_blank"> Ejercicios Alba Padín
+							Trigo</a>
+					</div>
+
+
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</main>
+	<div class="pie">
+
+		<div id="piePagina">&copy; 2021 - Creado por: <a href="https://albapadin.github.io/CMV-publico/"
+				target="_blank">Alba Padín Trigo</a>.</div>
+		<div id="piePagina2"> Todos los derechos reservados.</div>
+		<div id="piePagina3"> Contacto: alba.padin.trigo@gmail.com</div>
+
+	</div>
+	<script>
+		// seccion de codigo javascript 
+
+
+		function eventoCambio() {
+			let botonCambio = $("#cambio").text();
+			$(".dia").toggleClass("noche");
+			$(".dia2").toggleClass("noche2");
+			$(".card").toggleClass("card2");
+			$(".redDia").toggleClass("redNoche");
+			$(".headerTabla").toggleClass("headerTabla2");
+
+
+			if (botonCambio == ' Modo día') {
+				$("#cambio").text(' Modo noche');
+				$("#cambio").removeClass("fa-sun-o");
+				$("#cambio").addClass("fa-moon-o");
+			} else {
+				$("#cambio").text(' Modo día')
+				$("#cambio").removeClass("fa-moon-o");
+				$("#cambio").addClass("fa-sun-o");
+			}
+
+		}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

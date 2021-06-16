@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrousel>
+    <elemento>
+        <id>uno</id>
+        <num>1</num>
+        <nombrePiloto>Max Verstappen</nombrePiloto>
+        <nacion>NED</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>105</puntos>
+    </elemento>
+    <elemento>
+        <id>dos</id>
+        <num>2</num>
+        <nombrePiloto>Lewis Hamilton</nombrePiloto>
+        <nacion>GBR</nacion>
+        <coche>MERCEDES</coche>
+        <puntos>101</puntos>
+    </elemento>
+    <elemento>
+        <id>tres</id>
+        <num>3</num>
+        <nombrePiloto>Sergio Perez</nombrePiloto>
+        <nacion>MEX</nacion>
+        <coche>RED BULL RACING HONDA</coche>
+        <puntos>69</puntos>
+    </elemento>
+    <elemento>
+        <id>cuatro</id>
+        <num>4</num>
+        <nombrePiloto>Lando Norris</nombrePiloto>
+        <nacion>GBR</nacion>
+        <coche>MCLAREN MERCEDES</coche>
+        <puntos>66</puntos>
+    </elemento>
+    <elemento>
+        <id>cinco</id>
+        <num>5</num>
+        <nombrePiloto>Charles Leclerc</nombrePiloto>
+        <nacion>MON</nacion>
+        <coche>FERRARI</coche>
+        <puntos>52</puntos>
+    </elemento>
+    <elemento>
+        <id>seis</id>
+        <num>6</num>
+        <nombrePiloto>Valtteri Bottas</nombrePiloto>
+        <nacion>FIN</nacion>
+        <coche>MERCEDES</coche>
+        <puntos>47</puntos>
+    </elemento>
+    <elemento>
+        <id>siete</id>
+        <num>7</num>
+        <nombrePiloto>Carlos Sainz</nombrePiloto>
+        <nacion>ESP</nacion>
+        <coche>FERRARI</coche>
+        <puntos>42</puntos>
+    </elemento>
+    <elemento>
+        <id>ocho</id>
+        <num>8</num>
+        <nombrePiloto>Pierre Gasly</nombrePiloto>
+        <nacion>FRA</nacion>
+        <coche>	ALPHATAURI HONDA</coche>
+        <puntos>31</puntos>
+    </elemento>
+    <elemento>
+        <id>nueve</id>
+        <num>9</num>
+        <nombrePiloto>Sebastian Vettel</nombrePiloto>
+        <nacion>GER</nacion>
+        <coche>ASTON MARTIN MERCEDES</coche>
+        <puntos>28</puntos>
+    </elemento>
+    <elemento>
+        <id>diez</id>
+        <num>10</num>
+        <nombrePiloto>Daniel Ricciardo</nombrePiloto>
+        <nacion>AUS</nacion>
+        <coche>MCLAREN MERCEDES</coche>
+        <puntos>26</puntos>
+    </elemento>
+    <elemento>
+        <id>once</id>
+        <num>11</num>
+        <nombrePiloto>Fernando Alonso</nombrePiloto>
+        <nacion>ESP</nacion>
+        <coche>	ALPINE RENAULT</coche>
+        <puntos>13</puntos>
+    </elemento>
+    <elemento>
+        <id>doce</id>
+        <num>12</num>
+        <nombrePiloto>Esteban Ocon</nombrePiloto>
+        <nacion>FRA</nacion>
+        <coche>	ALPINE RENAULT</coche>
+        <puntos>12</puntos>
+    </elemento>
+    <elemento>
+        <id>trece</id>
+        <num>13</num>
+        <nombrePiloto>Lance Stroll</nombrePiloto>
+        <nacion>CAN</nacion>
+        <coche>ASTON MARTIN MERCEDES</coche>
+        <puntos>9</puntos>
+    </elemento>
+    <elemento>
+        <id>catorce</id>
+        <num>14</num>
+        <nombrePiloto>Yuki Tsunoda</nombrePiloto>
+        <nacion>JPN</nacion>
+        <coche>ALPHATAURI HONDA</coche>
+        <puntos>8</puntos>
+    </elemento>
+    <elemento>
+        <id>quince</id>
+        <num>15</num>
+        <nombrePiloto>Kimi Räikkönen</nombrePiloto>
+        <nacion>FIN</nacion>
+        <coche>ALFA ROMEO RACING FERRARI</coche>
+        <puntos>1</puntos>
+    </elemento>
+    <elemento>
+        <id>dieciseis</id>
+        <num>16</num>
+        <nombrePiloto>Antonio Giovinazzi</nombrePiloto>
+        <nacion>ITA</nacion>
+        <coche>ALFA ROMEO RACING FERRARI</coche>
+        <puntos>1</puntos>
+    </elemento>
+    <elemento>
+        <id>diecisiete</id>
+        <num>17</num>
+        <nombrePiloto>Mick Schumacher</nombrePiloto>
+        <nacion>GER</nacion>
+        <coche>	HAAS FERRARI</coche>
+        <puntos>0</puntos>
+    </elemento>
+    <elemento>
+        <id>dieciocho</id>
+        <num>18</num>
+        <nombrePiloto>George Russell</nombrePiloto>
+        <nacion>GBR</nacion>
+        <coche>WILLIAMS MERCEDES</coche>
+        <puntos>0</puntos>
+    </elemento>
+    <elemento>
+        <id>diecinueve</id>
+        <num>19</num>
+        <nombrePiloto>Nikita Mazepin</nombrePiloto>
+        <nacion>RAF</nacion>
+        <coche>	HAAS FERRARI</coche>
+        <puntos>0</puntos>
+    </elemento>
+    <elemento>
+        <id>veinte</id>
+        <num>20</num>
+        <nombrePiloto>Nicholas Latifi</nombrePiloto>
+        <nacion>CAN</nacion>
+        <coche>WILLIAMS MERCEDES</coche>
+        <puntos>0</puntos>
+    </elemento>
+</carrousel>
