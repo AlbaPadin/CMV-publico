@@ -638,10 +638,13 @@ main {
     margin:0px;
 }
 .card-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+justify-content: center;
 }
 .card-title{
+    display: flex;
     margin: 0px;
+    justify-content: center;
+}
+div p{
+    padding-top: 10px;
 }
