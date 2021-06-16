@@ -19,13 +19,14 @@ fecha: Marzo 2021
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- una fuente de Google -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	
-<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Russo+One&family=Staatliches&display=swap"
+		rel="stylesheet">
 	<!-- una hoja de estilos externa-->
 
 	<!-- una hoja de estilos personalizada-->
-	<link href="estilos.css" rel="stylesheet"/>
+	<link href="estilos.css" rel="stylesheet" />
 
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -54,7 +55,7 @@ fecha: Marzo 2021
 <body onload=leerFicheros()>
 	<main>
 		<nav class="navbar navbar-expand-lg navbar-light hola">
-			<a class="navbar-brand" href="index.html">Mundo F1<img src="ruedas.jpg"></a>
+			<a class="navbar-brand" href="index.html">Mundo F1<img src="ruedas.jpg" alt="ruedasF1" title="ruedasF1"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -70,14 +71,16 @@ fecha: Marzo 2021
 					</li>
 
 				</ul>
-				<li class="liBoton"><button type="button" id="cambio" class=" my-2 my-lg-0 botonLetras fas fa-moon-o" onclick="eventoCambio()">
-					Modo noche</button></li>
-				
+				<ul class="liBoton">
+					<li><button type="button" id="cambio" class=" my-2 my-lg-0 botonLetras fas fa-moon-o"
+							onclick="eventoCambio()">
+							Modo noche</button></li>
+				</ul>
 			</div>
 		</nav>
 		<div class="marco dia">
 			<div class="encabezado">
-				<img src="checkered-flag-background-vector2.jpg">
+				<img src="checkered-flag-background-vector2.jpg" alt="banderaCuadros" title="banderaCuadros">
 			</div>
 
 			<div class="migas redDia">
@@ -89,7 +92,7 @@ fecha: Marzo 2021
 				</div>
 			</div>
 
-		
+
 			<div class="contenido dia">
 				<div class="MasContenido__div">
 					<h3 class="dia2">Equipos F1</h3>
@@ -99,7 +102,7 @@ fecha: Marzo 2021
 				</div>
 			</div>
 		</div>
-	
+
 
 		<div class="MasContenido-inferior">
 			<div class="MasContenido__div">
@@ -113,8 +116,9 @@ fecha: Marzo 2021
 
 	</main>
 	<div class="pie">
-		
-		<div id="piePagina">&copy; 2021 - Creado por: <a href="https://albapadin.github.io/CMV-publico/" target="_blank">Alba Padín Trigo</a>.</div>
+
+		<div id="piePagina">&copy; 2021 - Creado por: <a href="https://albapadin.github.io/CMV-publico/"
+				target="_blank">Alba Padín Trigo</a>.</div>
 		<div id="piePagina2"> Todos los derechos reservados.</div>
 		<div id="piePagina3"> Contacto: alba.padin.trigo@gmail.com</div>
 
@@ -130,7 +134,7 @@ fecha: Marzo 2021
 			$(".card").toggleClass("card2");
 			$(".redDia").toggleClass("redNoche");
 			$(".headerTabla").toggleClass("headerTabla2");
-			
+
 
 			if (botonCambio == ' Modo día') {
 				$("#cambio").text(' Modo noche');

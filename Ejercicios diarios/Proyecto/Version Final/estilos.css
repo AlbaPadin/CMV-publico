@@ -22,7 +22,7 @@
     --colorTabla2:rgb(184, 184, 184);
 }
 .blanco{
-    color:rgb(92, 92, 92);
+    color:rgb(218, 218, 218);
     padding-left: 10px;
     text-align: justify;
 }
@@ -436,8 +436,8 @@ ol.breadcrumb a {
 
 .botonLetras {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: lightgrey;
-    outline: 2px solid grey;
+    background-color: rgb(0, 0, 0);
+    outline: 2px solid rgb(114, 114, 114);
     margin-top: 9px;
     padding-left: 5px;
     padding-right: 5px;
@@ -452,7 +452,7 @@ ol.breadcrumb a {
 }
 
 .botonLetras:hover {
-    background-color: grey;
+    background-color: rgb(114, 114, 114);
     color: white;
 }
 
@@ -708,6 +708,7 @@ main {
 }
 .liBoton{
     list-style: none;
+    margin-top: 20px;
 }
 .ContenedorTexto{
     margin-top: 45px;
