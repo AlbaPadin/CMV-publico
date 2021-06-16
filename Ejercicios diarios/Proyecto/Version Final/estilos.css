@@ -651,3 +651,6 @@ justify-content: center;
 div p{
     padding-top: 10px;
 }
+p.dia.parrafo {
+    padding: 0px;
+}
