@@ -1,9 +1,11 @@
+
 *{
     font-family: 'Russo One', sans-serif;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
+
 
 :root {
     --fuenteDia: darkgrey;
@@ -25,7 +27,7 @@
     --colorTabla2:rgb(184, 184, 184);
 }
 .blanco{
-    color:rgb(218, 218, 218);
+    color:rgb(230, 230, 230);
     padding-left: 10px;
     text-align: justify;
 }
@@ -212,35 +214,17 @@ img {
 }
 
 @media screen and (max-width: 1300px) {
-    .figura {
-        display: block;
-        width: 400px;
-        margin: auto;
-        margin-bottom: 2rem;
-
-    }
-
     .contenido {
         display: block;
         justify-content: center;
         align-items: center;
     }
-
 }
 
 @media screen and (max-width: 1000px) {
-    .lado {
-        display: none;
-    }
-
     .contenido {
         grid-column: 1 / span 4;
     }
-
-    .MasContenido-lado-movil {
-        display: block;
-    }
-
 }
 
 div.gallery img {
@@ -290,7 +274,12 @@ div.desc {
     }
 }
 
-
+.responsive {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    float: left;
+    margin-bottom: 20px;
+}
 .card-img-top[alt="logo"] {
     filter: brightness(100%);
 }
@@ -298,7 +287,6 @@ div.desc {
 .card-img-top[alt="logo"]:hover {
     filter: brightness(70%);
 }
-
 
 nav.navbar.navbar-expand-lg {
     position: sticky;
@@ -331,19 +319,14 @@ ol.breadcrumb {
 ol.breadcrumb a {
     /*para cambiar el color a los enlaces que van antes de la ruta en la que estamos*/
     color: black;
-    text-shadow: 0.5px 0.5px 0.7px black;
+    text-shadow: 0.3px 0.3px 0.35px black;
 }
 
 .otros-enlaces {
     padding-left: 25px;
 }
 
-.responsive {
-    break-inside: avoid;
-    page-break-inside: avoid;
-    float: left;
-    margin-bottom: 20px;
-}
+
 
 .ContenedorTitulosEImangenes {
     display: flex;
@@ -653,4 +636,57 @@ div p{
 }
 p.dia.parrafo {
     padding: 0px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.card-img-top[alt="monoplaza"]{
+    display:block;
+    transform: scale(1);
+    transition: transform 0.55s;
+}
+.card-img-top[alt="monoplaza"]:hover{
+    transform: scale(1.2);
+    transition: transform 0.65s;
+}
+.blanco{
+    padding: 0px;
+}
+
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-img.hidden{overflow: hidden;}
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1);
+    -ms-transform:scale(1);
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out; 
+}
+.div-img:hover .img{
+          
+    transform:scale(1.07);
+    -ms-transform:scale(1.07);
+    -moz-transform:scale(1.07); 
+    -webkit-transform:scale(1.07); 
+    -o-transform:scale(1.07); 
+}
+      
+      
+mark{
+    background-color: transparent;
+    color: rgb(192, 0, 0);
 }

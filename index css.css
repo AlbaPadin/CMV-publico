@@ -25,8 +25,8 @@ Se incluyen los principales SELECTORES SIMPLES; hay más combinaciones...
   margin-top: 7px;
 }
 main{
-  margin-top: 10px;
-  padding:10px;
+  margin-top: 45px;
+  margin-left:45px;
 }
 details{
   padding-left: 20px;
@@ -60,74 +60,13 @@ body{
   color:white;
 }
 footer{
-  padding: 10px;
+  margin-top: 45px;
+  margin-left: 25px;
 }
-
-div {
-  /* estilos para todos los elementos <div>; */
-  /* estilo:valor; */
-  
-  /* box-sizing:border-box  incluye en las dimensiones de un elemento el espacio del padding y del border. */
-  /* display:flex   da la misma altura a todos los elementos que están en el mismo DIV */
+h1{
+  margin-bottom: 15px;
 }
-
-.claseUno {
-  /* estilos para todos los elementos que son de la clase .claseUno; */
-  /* estilo:valor; */
+h3{
+  font-size: 1.5rem;
 }
-
-.claseUno.claseDos {
-  /* estilos para todos los elementos que son de la clase .claseUno y .claseDos;
-     NO hay espacio entre ambos selectores  */
-  /* estilo:valor; */
-}
-
-.claseUno .claseDos {
-  /* estilos para todos los elementos de .claseDos que descienden de uno de .claseUno;
-     HAY UN espacio entre ambos selectores  */
-  /* estilo:valor; */
-}
-
-#esteElemento {
-  /* estilos para el único elemento identificado con este #esteElemento; */
-  /* estilo:valor; */
-}
-
-p.claseUno {
-  /* estilos para todos los elementos <p> que son de la clase .claseUno; */
-  /* estilo:valor; */
-}
-
-p,div {
-  /* estilos para todos los elementos que sean <p> o <div>; */
-  /* estilo:valor; */
-}
-
-div > p {
-  /* estilos para todos los elementos que sean <p> que estén dentro (sean hijos de) un <div>; */
-  /* estilo:valor; */
-}
-
-h1 + p {
-  /* estilos para todos los elementos que sean <p> que sean hermanos y estén inmediantamente después de <h1>; */
-  /* estilo:valor; */
-}
-
-/*
-
-pseudoclases, asignarles estilos en este orden llamado LVHA:
-   :link — :visited — :hover — :active.
-   
-Más selectores y documentación:
-pseudo-clases: https://www.w3schools.com/css/css_pseudo_classes.asp
-pseudo-elementos: https://www.w3schools.com/css/css_pseudo_elements.asp
-pseudo-atributos: https://www.w3schools.com/css/css_attribute_selectors.asp
-formularios: https://www.w3schools.com/css/css_form.asp
-posicionamiento: https://www.w3schools.com/css/css_positioning.asp
-selectores: https://www.w3schools.com/cssref/css_selectors.asp
-*/
-
-
-
-
 

@@ -83,11 +83,11 @@ function miFuncion(xml) {
                   <!--en esta linea empieza cada carta del carrousel-->
                   <div class="col-md">
                     <div class="card">
-                      <div class="dimension_imagen" alt="logo"><img class="card-img-top" src="${fotoSlide1}" alt="logo" title="${nombreEquipo}">
+                      <div class="dimension_imagen " alt="logo"><a href="#${carrousel}" data-slide="next"><img class="card-img-top" src="${fotoSlide1}" alt="logo" title="${nombreEquipo}" ></a>
                       </div>
                       <div class="card-body ${colapseLogo}">
-                        <h4 class="card-title"><div>${nombreEquipo}</div></h4>
-                        <div id="${colapseLogo}" class="collapse">
+                      <h4 class="card-title"><a href="#${carrousel}" data-slide="next">${nombreEquipo}</a></h4>
+                      <div id="${colapseLogo}" class="collapse">
                        
                         </div>
                       </div>
@@ -101,7 +101,7 @@ function miFuncion(xml) {
                   <!--en esta linea empieza cada carta del carrousel-->
                   <div class="col-md">
                     <div class="card">
-                      <div class="dimension_imagen"><img class="card-img-top" src="${fotoSlide2}" alt="equipo" title="${nombreEquipo}">
+                      <div class="dimension_imagen"><a href="#${carrousel}" data-slide="next"><img class="card-img-top" src="${fotoSlide2}" alt="monoplaza" title="${nombreEquipo}"></a>
                       </div>
                       <div class="card-body ${colapseLogo}">
                         <h4 class="card-title"><a href="#${colapseEquipo}" data-toggle="collapse">Monoplaza</a>
@@ -137,8 +137,8 @@ function miFuncion(xml) {
                       <div class="container-fluid">
                         <div class="row">
                           <div class="col">
-                            <div class="card">
-                              <img class="card-img-top"
+                            <div class="card div-img hidden">
+                              <img class="card-img-top img"
                                 src="${fotoPiloto1}" >
                               <div class="card-body ${colapseLogo}">
                                 <h4 class="card-title">${nombrePiloto1}
@@ -151,8 +151,8 @@ function miFuncion(xml) {
                           </div>
 
                           <div class="col">
-                            <div class="card">
-                              <img class="card-img-top"
+                            <div class="card div-img hidden">
+                              <img class="card-img-top img"
                                 src="${fotoPiloto2}">
                               <div class="card-body ${colapseLogo}">
                                 <h4 class="card-title">${nombrePiloto2}
@@ -182,7 +182,7 @@ function miFuncion(xml) {
                   <!--en esta linea empieza cada carta del carrousel-->
                   <div class="col-md">
                     <div class="card">
-                      <div class="dimension_imagen"><img class="card-img-top" src="${fotoSlide3}" alt="scuderia" title="${nombreEquipo}">
+                      <div class="dimension_imagen div-img hidden"><a href="#${carrousel}" data-slide="next"><img class="card-img-top img" src="${fotoSlide3}" alt="equipo" title="${nombreEquipo}"></a>
                       </div>
                       <div class="card-body ${colapseLogo}">
                         <h4 class="card-title"><a href="#${colapseEscuderia}" data-toggle="collapse">Equipo </a></h4>

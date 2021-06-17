@@ -29,7 +29,7 @@ fecha: Marzo 2021
 	<link href="estilos.css" rel="stylesheet" />
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
+	<link rel="icon" href="ruedas.ico">
 
 	<!-- solo aquellos estilos que solo aplican a esta pagina -->
 	<style>
@@ -51,7 +51,7 @@ fecha: Marzo 2021
 </head>
 
 
-<body onload=leerFicheros()>
+<body>
 	<main>
 		<nav class="navbar navbar-expand-lg navbar-light hola">
 			<a class="navbar-brand" href="index.html">Mundo F1<img src="ruedas.jpg" alt="ruedasF1" title="ruedasF1"></a>
@@ -71,9 +71,9 @@ fecha: Marzo 2021
 
 				</ul>
 				<ul class="liBoton">
-				<li ><button type="button" id="cambio" class=" my-2 my-lg-0 botonLetras fas fa-moon-o"
-						onclick="eventoCambio()">
-						Modo noche</button></li>
+					<li><button type="button" id="cambio" class=" my-2 my-lg-0 botonLetras fas fa-moon-o"
+							onclick="eventoCambio()">
+							Modo noche</button></li>
 				</ul>
 			</div>
 		</nav>
@@ -100,54 +100,49 @@ fecha: Marzo 2021
 
 
 					<p class="blanco">
-						Esta es la conclusión del curso de Front-End realizado, cuyo objetivo principal era la
+						Esta es la conclusión del curso de <mark>Front-End</mark> realizado, cuyo objetivo principal era la
 						elaboración de una pagina web tipo "orla", o lo que es lo mismo,
 						una pagina donde se muestre una galería de imágenes.
 					</p>
 					<p class="blanco">
-						La pagina obtenida tiene un diseño responsive, es decir, es adaptable a distintos dispositivos,
-						con distintos viewports y tamaños de ventana. Incluye también, a través del botón "Modo día /
-						Modo noche", la posibilidad de cambiar los colores de la página para hacerla más amigable según
+						La pagina obtenida tiene un diseño <mark>responsive</mark>, es decir, es adaptable a distintos dispositivos,
+						con distintos viewports y tamaños de ventana. Incluye también, a través del botón <mark>"Modo día /
+						Modo noche"</mark>, la posibilidad de cambiar los colores de la página para hacerla más amigable según
 						la hora del día a la que se acceda a ella.
-						Además de eso, se han comprobado los niveles de accesibilidad, y siguiendo las
+						Además de eso, se han comprobado los niveles de <mark>accesibilidad</mark>, y siguiendo las
 						recomentdaciones, se han obtenido resultados óptimos.
 					<p class="blanco">
-						El tema escogido ha sido la F1, por lo que la parte de contenido principal de la pagina se ha
-						elaborado con 10 elementos, cada uno
-						correspondiente a un equipo de F1. Cada elemento está compuesto a su vez por un
-						carrousel, que contiene 3 componentes tipo "card". En la primera carta se puede ver el nombre y
-						el logo del equipo. En la segunda carta se ve una fotografía del monoplaza, con la opcion de un
-						desplegable que ofrece una breve descripción del mismo y un botón donde se accede a la
-						información de los pilotos a través de un modal. La tercera carta también tiene la
-						opcion de desplegar un texto donde se ofrece un resumen de la trayectoria de ese equipo.
+						El tema escogido ha sido la <mark>Fórmula 1</mark>, por lo que la parte de contenido principal de la página
+						se ha elaborado con 10 elementos, cada uno correspondiente a un equipo de F1. Cada elemento está
+						compuesto a su vez por un <mark>carrousel</mark>, que contiene 3 componentes tipo <mark>"card"</mark>. En la primera carta
+						se puede ver el nombre y el logo del equipo. En la segunda carta se ve una fotografía del
+						monoplaza, con la opcion de un desplegable que ofrece una breve descripción del mismo y un botón
+						donde se accede a la información de los pilotos a través de un <mark>modal</mark>. La tercera carta también
+						tiene la opcion de desplegar un texto donde se ofrece un resumen de la trayectoria de ese
+						equipo. Tanto las imágenes como toda la información mostrada de estos elementos se obtienen a
+						través de la lectura de un fichero <mark>.xml</mark> alojado en un repositorio público. En esta sección de la
+						página se incluyen múltiples <mark>efectos hover</mark>, es decir, cambios en el aspecto de los componentes
+						de la página una vez que el ratón se posa sobre ellos, quedando así, una vista más original y
+						agradable a los contenidos.
 					</p>
 					<p class="blanco">
-						Tanto las imágenes como toda la información mostrada de estos elementos se obtiene a través de
-						la lectura de un fichero .xml alojado en un repositorio público.
-						A parte del contenido tipo "orla", en la parte inferior de la página se ha colocado una tabla
-						donde se muestran los resultados de la competición en estos momentos. Esta tabla
-						también tiene un diseño responsive y la información que se muestra en ella se ha obtenido de
-						otro fichero .xml también alojado en un repositorio público.
+						Aparte de la sección tipo "orla", en la parte inferior de la página se ha colocado una tabla
+						donde se muestran los resultados de la clasificación de los pilotos de F1 en estos momentos. Esta tabla
+						también tiene un diseño <mark>responsive</mark> y la información que se muestra en ella se ha obtenido de
+						otro fichero <mark>.xml</mark> también alojado en un repositorio público.
 					</p>
 					<p class="blanco">
-						Todo esto es el resultado de los conocicimientos obtenidos durante el curso de Front-End. La
-						trayectoria de aprendizaje del curso se puede apreciar observando los ejercicios diarios realizados
-						en la parte de Front-End. Estos pueden consultarse en el enlace que aparece en la parte
-						inferior. En la pagina de ese enlace, en la parte de "Proyecto" también se pueden ver las
-						diferentes versiones que se han ido haciendo de esta pagina, hasta llegar a esta version final.
+						Todo esto es el resultado de los conocicimientos obtenidos durante el curso de <mark>Front-End</mark>. La
+						trayectoria de aprendizaje del curso se puede apreciar observando los ejercicios diarios
+						realizados a lo largo de 6 semanas. Estos pueden consultarse en el enlace que aparece en la parte
+						inferior. En la pagina de ese enlace, en la parte de <mark>"Proyecto"</mark> también se pueden ver las
+						diferentes versiones que se han ido haciendo de esta página, hasta llegar a la version final.
 					</p>
 					<div class="blanco">
 						<p class="fa fa-pencil"></p> Enlace a página de ejercicicios: <a class="azul2"
-							href="https://albapadin.github.io/CMV-publico/" target="_blank"> Ejercicios Alba Padín
+							href="https://albapadin.github.io/CMV-publico/" target="_blank"> Porfolio Alba Padín
 							Trigo</a>
 					</div>
-
-
-
-
-
-
-
 
 
 
